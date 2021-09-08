@@ -13,5 +13,5 @@
 => https://jakub-karabula-stysiak.medium.com/react-integration-with-azure-and-asp-net-core-9651929ae3f9 React integration with Azure and ASP.NET core
 => https://jakub-karabula-stysiak.medium.com/our-experience-with-ad-b2c-6e2cc6cfa7f9 Our experience with Azure Active Directory B2C. Challenges, pros, cons and future plans 
 
-[a-min.png]
+=> a-min.png A photo of myself
 

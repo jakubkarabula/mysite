@@ -48,17 +48,24 @@ fs.readFile(fileName + ".gmi", function(err, buf) {
 `
   let processedHTML = html;
 
-  /* Change all [image.png] to <img src="image.png" /> */
-  (html.match(/\[.+\]/g) || []).forEach(image => {
-    const imageUrl = image.slice(1, -1)
-	  processedHTML = processedHTML.replaceAll(image, `<img src="${imageUrl}" />`)
-  })
-
   const dom = new JSDOM(processedHTML)
+
+  const imgRegex = /.*(png|jpg)+$/
 
   /* Add index number to every link */
   dom.window.document.querySelectorAll('a').forEach((a, index) => {
-	  a.innerHTML = `[${index + 1}] ${a.innerHTML}`
+    /* change image links to inline */
+    if (imgRegex.test(a.href)) {
+      const img = dom.window.document.createElement('img');
+      img.setAttribute('src', a.href)
+      img.setAttribute('alt', a.innerHTML)
+      img.setAttribute('title', a.innerHTML)
+      a.replaceWith(img)
+
+      return
+    }
+
+    a.innerHTML = `[${index + 1}] ${a.innerHTML}`
   })
 
   fs.writeFile(fileName + ".html", dom.window.document.documentElement.outerHTML, (err) => {
