@@ -1,0 +1,27 @@
+# Pseudo-Automated hydroponic setup, project with updates
+
+=> index.html go back
+
+## Hardware
+pot
+basil seedlings
+=> https://www.raspberrypi.org/products/raspberry-pi-4-model-b/ rapsberry pi 4 b - from here on called rpi
+=> https://learn.adafruit.com/dht dht 22 temperature and humidity sensor
+=> https://www.ikea.com/gb/en/p/vaexer-fertiliser-20317649/ växer fertiliser (ikea)
+
+## Software
+=> https://github.com/adafruit/Adafruit_Python_DHT adafruit_dht - to read data from sensors
+=> https://manjaro.org/download/#rock-pi-4b-xfce manjaro linux arm edition for rpi
+
+## Manifesto
+I live in an old tenement. But I love the flora that surrends me in central Europe. I love to go to the parks and forests. The feel of otherness of nature is quite strong. There is a clear separation of what is presented as the city part and what is the park part. I agree with Timothy Morton and Slavoj Zizek that the concept of nature is defined by otherness, by separation, defined only by saying that what is processed by us is not nature, therefore trash is not nature, but are parks designed by humans nature? Is a fox on the sidewalk nature? It's a definition based on the negative space, it implies a barier, but it's not there, trash heap and parks are parts of nature and can't be separated. I think that the concept of nature contributes to alienation and separates our actions from ecological consequences. I would love to engage with flora in an ecological and technological but less alien way, not as means or commodities, but as cohabitants of this apartment. Just like my cats, plants and flies. I would like this project to be led by empathy and consideration, to modify the space progressively to fit all the persons inside and to grow with relationships. I want to invite the plant to be a part of my space as well, I hope they will like it. In any case welcome onboard.
+
+## Progress
+07 Sept 2021
+I think to extend usability of the sensor to record temperature in my living room where my cats live. The temperature there varies a lot between day and night and between individual days. I have noticed that my cats are sometimes cold in the morning. I want to be able to help them better and to achieve it I need to know what is the temperature at night. Perhaps connect an additional heater that will start only when the temperature drops below certain number. So basically a heater with a simple thermostat. I will run the temperature analysis through the night.
+
+06 Sept 2021
+I have got a dht 22 via post. I connected it to rpi. It reads temperature and humidity correctly. 27 degrees Celsius, 52% humidity. It's exciting, my first experience with connecting something psychical to rpi. One year after using it mostly as an adblocker and server.
+
+[d3.png]
+

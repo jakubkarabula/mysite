@@ -1,0 +1,16 @@
+{
+  "name": "mydoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gemini-to-html": "^1.1.1",
+    "jsdom": "^17.0.0"
+  }
+}
