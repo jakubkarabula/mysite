@@ -13,8 +13,6 @@ fs.readFile(fileName + ".gmi", function(err, buf) {
   const tokens = parse(page)
   let content = render(tokens)
 
-  content = content.replace(/\<a/g, '<a target="_blank"')
-
   const html = `
   <!doctype html>
 
@@ -50,7 +48,7 @@ fs.readFile(fileName + ".gmi", function(err, buf) {
 
   const dom = new JSDOM(processedHTML)
 
-  const imgRegex = /.*(png|jpg)+$/
+  const imgRegex = /.*(png|jpg|gif)+$/
 
   /* Add index number to every link */
   dom.window.document.querySelectorAll('a').forEach((a, index) => {
@@ -63,6 +61,10 @@ fs.readFile(fileName + ".gmi", function(err, buf) {
       a.replaceWith(img)
 
       return
+    }
+
+    if (a.href.startsWith('http')) {
+      a.setAttribute('target', '_blank')
     }
 
     a.innerHTML = `[${index + 1}] ${a.innerHTML}`
