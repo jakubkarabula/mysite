@@ -1,17 +1,17 @@
 # Hello, my name is Jakub Karabula-Stysiak 🌱
 
-### Links to profiles:
+### Profiles:
 => https://github.com/jakubkarabula Github 
 => https://www.linkedin.com/in/jakub-karabu%C5%82a-stysiak-a8356112a/ Linkedin
 => https://medium.com/@jakub-karabula-stysiak Medium
 
+### Posts related to professional work
+=> https://jakub-karabula-stysiak.medium.com/react-integration-with-azure-and-asp-net-core-9651929ae3f9 React integration with Azure and ASP.NET core
+=> https://jakub-karabula-stysiak.medium.com/our-experience-with-ad-b2c-6e2cc6cfa7f9 Our experience with Azure Active Directory B2C. Challenges, pros, cons and future plans
+
 ### Creative work
 => hydro.html Pseudo-Automated hydroponic setup, project with updates
 => walk.html Virtual walk in Berlin forest, project with updates
-
-### Posts related to professional work
-=> https://jakub-karabula-stysiak.medium.com/react-integration-with-azure-and-asp-net-core-9651929ae3f9 React integration with Azure and ASP.NET core
-=> https://jakub-karabula-stysiak.medium.com/our-experience-with-ad-b2c-6e2cc6cfa7f9 Our experience with Azure Active Directory B2C. Challenges, pros, cons and future plans 
 
 => a-min.png A photo of myself
 
