@@ -19,7 +19,8 @@ I live in an old tenement. But I love the flora that surrends me in central Euro
 18 Oct 2021
 I have missed the start of the month and jumped straight to the 18th day of the October. The autumn is slipping through my fingers, it will be winter soon. For the last 10 years autumn is very short. I was planning to start growing plants in passive hydroponic setup but I don't have the mental energy now to do it properly. Therefore I have began with a simple soil in pot setup, the first plants are: Basil, Parsley and Chives. Need to start somewhere.
 
-I made a progress on a simple server for data points collection (for now temperature, humidity, and later moisture and light) - I have called it mini-mango. I am fairly happy with it. Going with the spirit of creating own tools for the job, it's a good way to learn and have some fun, make lore, create little programs that can later interact with each other in software forest.
+I made a progress on a simple server for data points collection (for now temperature, humidity, and later moisture and light) - I have called it mini-mango. I am fairly happy with it. Going with the spirit of creating own tools for the job, I have some fun with it, make lore, create little programs that can later interact with each other in software forest.
+The idea with the software is simple - provide YML files with object model schemas as input and receive CRUD API server connected to Mongo DB as output. 
 
 => https://github.com/jakubkarabula/mini-mango Mini-mango server
 
