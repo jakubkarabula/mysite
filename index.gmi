@@ -10,7 +10,7 @@
 => https://jakub-karabula-stysiak.medium.com/our-experience-with-ad-b2c-6e2cc6cfa7f9 Our experience with Azure Active Directory B2C. Challenges, pros, cons and future plans
 
 ### Creative work
-=> hydro.html Pseudo-Automated hydroponic setup, project with updates
+=> hydro.html Pseudo-Automated in-house greenhouse setup, project with updates
 => walk.html Virtual walk in Berlin forest, project with updates
 
 => a-min.png A photo of myself

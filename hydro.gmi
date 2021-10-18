@@ -1,4 +1,4 @@
-# Pseudo-Automated hydroponic setup, project with updates
+# Pseudo-Automated in-house greenhouse setup, project with updates
 
 => index.html go back
 
@@ -7,7 +7,6 @@ pot
 basil seedlings
 => https://www.raspberrypi.org/products/raspberry-pi-4-model-b/ rapsberry pi 4 b - from here on called rpi
 => https://learn.adafruit.com/dht dht 22 temperature and humidity sensor
-=> https://www.ikea.com/gb/en/p/vaexer-fertiliser-20317649/ växer fertiliser (ikea)
 
 ## Software
 => https://github.com/adafruit/Adafruit_Python_DHT adafruit_dht - to read data from sensors
@@ -17,11 +16,15 @@ basil seedlings
 I live in an old tenement. But I love the flora that surrends me in central Europe. I love to go to the parks and forests. There is a clear separation of what is presented as the city part and what is the park part. I would love to engage with flora in an ecological and technological but less alien way, not as means or commodities, but as cohabitants. Living together, just like with cats, other plants and flies. I would like this project to be led by empathy and consideration, to modify the space progressively to fit all the persons inside and to grow with relationships. Therefore with more grounding and attention by definition it is not aiming to be easily scalable and I think it's not a wrong mindeset to adapt in the world of an 'infinite growth'. I want to invite the herbs, vegetable plants to be a part of my space as well, I hope they will like it. In any case welcome onboard.
 
 ## Progress
-24 Sept 2021
-It has been a while. I had a lot of work in my daily job. In this time the summer has passed. It is becoming cold outside. I have decided to go with Kratky method, it's a passive, deep water culture, hydroponic growth method. Primarily because it requires less space and initial setup. It is not very easy way, but I will monitor the health daily. I also plan to add a grow light and set it to light automatically for ~8 hours a day.
+18 Oct 2021
+I have missed the start of the month and jumped straight to the 18th day of the October. The autumn is slipping through my fingers, it will be winter soon. For the last 10 years autumn is very short. I was planning to start growing plants in passive hydroponic setup but I don't have the mental energy now to do it properly. Therefore I have began with a simple soil in pot setup, the first plants are: Basil, Parsley and Chives. Need to start somewhere.
 
-=> https://en.wikipedia.org/wiki/Kratky_method Kratky method
-=> https://en.wikipedia.org/wiki/Deep_water_culture Deep water culture
+I made a progress on a simple server for data points collection (for now temperature, humidity, and later moisture and light) - I have called it mini-mango. I am fairly happy with it. Going with the spirit of creating own tools for the job, it's a good way to learn and have some fun, make lore, create little programs that can later interact with each other in software forest.
+
+=> https://github.com/jakubkarabula/mini-mango Mini-mango server
+
+24 Sept 2021
+It has been a while. I had a lot of work in my daily job. In this time the summer has passed. It is becoming cold outside.
 
 07 Sept 2021
 I think to extend usability of the sensor to record temperature in my living room where my cats live. The temperature there varies a lot between day and night and between individual days. I have noticed that my cats are sometimes cold in the morning. I want to be able to help them better and to achieve it I need to know what is the temperature at night. Perhaps connect an additional heater that will start only when the temperature drops below certain number. So basically a heater with a simple thermostat. I will run the temperature analysis through the night.
