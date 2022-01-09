@@ -1,4 +1,4 @@
-# Hello, my name is Jakub Karabula-Stysiak 🌱
+# Hello, my name is Maya Karabula-Stysiak 🌱
 
 ### Profiles:
 => https://github.com/jakubkarabula Github 
@@ -13,5 +13,5 @@
 => hydro.html Pseudo-Automated in-house greenhouse setup, project with updates
 => walk.html Virtual walk in Berlin forest, project with updates
 
-=> a-min.png A photo of myself
+=> dithered-image.png A photo of myself
 
