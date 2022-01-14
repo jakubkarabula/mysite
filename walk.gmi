@@ -1,13 +1,17 @@
-# Virtual walk in Berlin forrest, work in progress
+# SZKLO - 3D engine implementation
 
 => index.html back
 
 ### Software
-Javascript
-=> https://threejs.org/ Three.js
+Typescript
 
 ### Manifesto
 
+I wanted to start making 3D models and simple video games. But to be honest when I looked into tutorials a lot of it looked like a black box, which can be ok for some folks but I prefer to understand in detail what I am doing. Therefore I made a decision to start from the maths and implement a simple 3D graphics engine first. It is written in Typescript and uses HTML 2d canvas as base for rendering. I am planning to add support for OBJ files, cameras, light sources, etc. 
 
 ### Progress
+14 Jan 2022
+First things first, I have implemented rendering of a simple cube.
+
+=> cube.gif Cube
 
