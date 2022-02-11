@@ -1,5 +1,8 @@
 # Hello, my name is Maya Karabula-Stysiak 🌱
 
+I am working as a software developer and I am also doing some coding experiments in my free time.
+I am also very passionate about ecology. This is why this website looks like it's from 90s. It's a part of small web movement emergin now in the Internet that brings attention to privacy and data ownership but also to the impact the technology and current websites have on the environment.
+
 ### Profiles:
 => https://github.com/jakubkarabula Github 
 => https://www.linkedin.com/in/jakub-karabu%C5%82a-stysiak-a8356112a/ Linkedin

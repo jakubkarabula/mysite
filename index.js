@@ -18,6 +18,7 @@ fs.readFile(fileName + ".gmi", function(err, buf) {
 
   <html lang="en">
   <head>
+    <title>Maya Karabula-Stysiak</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

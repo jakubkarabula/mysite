@@ -1,7 +1,7 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
- /*
+ 
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #282c34;
@@ -20,10 +20,10 @@
     background: #fefefe;
   }
 }
-  */
+  
 
 
-/* @media (prefers-color-scheme: light) { */
+@media (prefers-color-scheme: light) {
   body {
     background-color: #fefefe;
   }
@@ -41,7 +41,7 @@
     background: #282c34;
   }
 
-/* } */
+}
 
 body {
       font-family: 'Besley', serif;
@@ -88,3 +88,6 @@ p {
     margin: 0px;
 }
 
+img {
+  max-width: 100%;
+}
