@@ -1,7 +1,8 @@
 # Hello, my name is Maya Karabula-Stysiak 🌱
 
 I am working as a software developer and I am also doing some coding experiments in my free time.
-I am also very passionate about ecology. This is why this website looks like it's from 90s. It's a part of small web movement emerging now in the Internet that brings attention to privacy and data ownership but also to the impact the technology and current websites have on the environment.
+I am also very passionate about ecology. This is why this website looks very raw. It's a part of small web movement emerging now in the Internet that brings attention to the impact the technology and current websites have on the environment, society and data ownership, there is also nostalgia for the early web.
+I like to make my own tools, mainly software.
 
 ### Profiles:
 => https://github.com/jakubkarabula Github 
@@ -15,6 +16,9 @@ I am also very passionate about ecology. This is why this website looks like it'
 ### Creative work
 => hydro.html DONICA - Pseudo-Automated in-house greenhouse setup, project with updates
 => walk.html SZKLO - 3D engine implementation, project with updates
+=> jswm.html JSWM - Javascript pseudo window manager, project with updates 
+
+### Other links
+=> https://benhoyt.com/writings/the-small-web-is-beautiful/ "The small web is beautiful" Ben Hoyt
 
 => dithered-image.png A photo of myself
-
