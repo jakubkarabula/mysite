@@ -9,6 +9,8 @@ In my day to day job I am working a web developer. In most companies in Berlin t
 => https://ianyh.com/amethyst/ amethyst
 => https://github.com/koekeishiya/yabai yabai
 
+===================
+
 I have another idea. It's a bit cursed but it's quite pleasant to work with so far. I spent most of my time working with Firefox, terminal and nvim/vscode, sometimes I need to also take a look at images. And i like keyboard driven flows, tiling window management etc. What if I would be able to have terminal, file management, image viewing etc inside Firefox, just as another tab? This is what I called JSWM, Javascript based window manager that is basically a web app with simple implementations of window management, key bindings and apps like terminal (with ttyd) and image viewing. Most of other things like editing and file browsing I can do via the terminal.
 
 => https://assets.merveilles.town/media_attachments/files/106/756/776/286/720/224/original/24b61d0c2be54bc2.jpeg wallpaper is a photo published by Devine Lu Linvega from 100 rabbits

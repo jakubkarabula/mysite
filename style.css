@@ -5,6 +5,7 @@
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #282c34;
+    color: #fefefe;
   }
 
   blockquote, a, h1, h2, h3, p {
@@ -26,6 +27,7 @@
 @media (prefers-color-scheme: light) {
   body {
     background-color: #fefefe;
+    color: #282c34;
   }
 
   blockquote, a, h1, h2, h3, p {
@@ -46,7 +48,6 @@
 body {
       font-family: 'Besley', serif;
     padding: 20px;
-    color: #282c34;
     font-size: 16px;
     line-height: 22px;
     max-width: 960px;
