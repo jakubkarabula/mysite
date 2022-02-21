@@ -21,4 +21,4 @@ I like to make my own tools, mainly software.
 ### Other links
 => https://benhoyt.com/writings/the-small-web-is-beautiful/ "The small web is beautiful" Ben Hoyt
 
-=> dithered-image.png A photo of myself
+=> mod.jpg A photo of myself
