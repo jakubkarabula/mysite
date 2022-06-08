@@ -79,7 +79,7 @@ const getTitle = (md = '') => {
 const updateLinks = (md = '') => {
     const links = []
 
-    const mdLocal = md.replace(/\[.*\]\(.*notion.*\)/g, (link) => {
+    const mdLocal = md.replace(/\[.*\]\(.*notion\.so.*\)/g, (link) => {
        const name = link.match(/\[.*\]/g)?.[0]?.slice(1, -1)
        const id = link.match(/\(.*\)/g)?.[0]?.slice(1, -1)?.split('-').pop()
 
