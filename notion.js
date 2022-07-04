@@ -52,6 +52,10 @@ const run = async () => {
     console.log('Will save pages...')
 
     Object.entries(map).forEach(([id, content]) => {
+        if (content.html === '') {
+            console.log(id, content.title, 'this page had no content')
+        }
+
         fs.writeFile('./' + id + '.html', template(content.html, content.links, id, content.title), err => {
             if (err) {
             console.error(err);
