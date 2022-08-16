@@ -98,6 +98,7 @@ const updateLinks = (md = '') => {
 
 const template = (page, backLinks, id, title) => `
     <body>
+
         <img class='cover-image' src='${id}.png' alt='${title} cover' /> 
         <div class='backlinks'>
         ${backLinks?.length > 0 ? `
@@ -108,9 +109,10 @@ const template = (page, backLinks, id, title) => `
         ` : ''}
         </div>
         ${page}
-    </body>
 
-    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
+      <noscript><link rel="stylesheet" href="style.css"></noscript>
+    </body>
 `
 
 run()
