@@ -5,7 +5,8 @@ const fs = require('fs');
 const pages = [
     'e0b7bffb41bc4716ba7510bb2d9accf3',
     '2b84148d7fc1464b90b7bb87c1a9a2ea',
-    '15331f3aad9145cabaa4f573f94311de'
+    '15331f3aad9145cabaa4f573f94311de',
+    '2b76c247269b4abbadf3f942380b00d2'
 ]
 
 const indexPage = '2b84148d7fc1464b90b7bb87c1a9a2ea'
