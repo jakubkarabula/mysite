@@ -1,0 +1,66 @@
+
+    <head>
+        <title>💛 Documents were not supposed to be Turing complete</title>
+    </head>
+    <body>
+        <img class='cover-image' src='images/7dee961690054538826e2ad28e782b68.png' alt='💛 Documents were not supposed to be Turing complete cover' /> 
+        <div class='backlinks'>
+        
+            <span>backlinks:</span>
+            <ul>
+                <li><a href='029402285c0c423789fff51ea74909bf.html'>✍️ Log - my thoughts etc</a></li>
+            </ul>
+        
+        </div>
+        <h1 id="💛-documents-were-not-supposed-to-be-turing-complete">💛 Documents were not supposed to be Turing complete</h1>
+<h3 id="25082022">25.08.2022</h3>
+<h3 id="it-starts-with-a-meme">It starts with a meme</h3>
+<p>Some time ago I have seen a meme about JavaScript and the current state of the Web, that the documents were not supposed to be Turing Complete. Which is a call out of how unnecessarily complex current websites are - a ton of scripting just to display a page with an article, news, a product, etc.</p>
+<p><img src="%F0%9F%92%9B%20Documents%20were%20not%20supposed%20to%20be%20Turing%20complet%20e307b8ecb43b4d8f8cc6828c048365ba/Screenshot_2022-08-28_at_10.49.51.png" alt="Screenshot 2022-08-28 at 10.49.51.png"></p>
+<h3 id="ok-but-what-is-turing-complete-and-what-is-a-document-if-you-know-then-skip-this-paragraph">Ok, but what is Turing Complete, and what is a Document? (if you know then skip this paragraph)</h3>
+<p>Turing Complete means more or less that a system can solve any computational problem, things such as addition and multiplication but also more complex like math for 3d graphics, and many more. A document is a shared piece of information on the Web, like a blog post. Coming back to the meme, it means that websites were supposed to be pure text and not systems that can solve any computable problem. And <a href="https://www.freecodecamp.org/news/javascript-is-turing-complete-explained-41a34287d263/#:~:text=Now%20if%20you%20think%20about,That%27s%20it!">JavaScript is in fact Turing Complete</a>, <a href="https://stackoverflow.com/questions/2497146/is-css-turing-complete">similarly to CSS</a>.</p>
+<h3 id="so-is-it-true-that-documents-were-not-supposed-to-be-tc">So, is it true that documents were not supposed to be TC?</h3>
+<p>Long story short yes-ish. If you read <a href="https://www.w3.org/Proposal.html">WorldWideWeb: Proposal for a HyperText Project</a> by Tim Berners-Lee, which I recommend, you can find this:</p>
+<blockquote>
+<p><em>The project will operate in a certain well-defined subset of the subject area often associated with the &quot;Hypertext&quot; tag. It will aim:</em></p>
+<ul>
+<li><em>to provide a common (simple) protocol for requesting human readable information stored at a remote system, using networks; (…)</em></li>
+</ul>
+<p><em><strong>The project will not aim (…)</strong></em></p>
+<ul>
+<li><em>to do research into fancy multimedia facilities such as sound and video;</em></li>
+<li><em>to use sophisticated network authorisation systems. data will be either readable by the world (literally), or will be readable only on one file system, in which case the file system&#39;s protection system will be used for privacy. All network traffic will be public.</em></li>
+</ul>
+</blockquote>
+<p>Ok, so human-readable format, no fancy stuff like sound or video, no authorization. Current websites have certainly moved from that initial state. What I get from the proposal is that the documents were supposed to be text with links to other documents. Does not sound like a computational system, fair enough, not Turing Complete.</p>
+<h3 id="we-have-moved-on-we-have-fancy-multimedia-like-video-and-audio-and-we-have-the-authorization-who-cares-is-it-just-nostalgia">We have moved on, we have “fancy multimedia” like video and audio, and we have the authorization, who cares? Is it just nostalgia?</h3>
+<p>It is partially nostalgia, wanting to come back to simpler times that happened when we were younger, classic humans. But it’s not only that.</p>
+<p>Added complexity certainly gave us amazing possibilities but it also allowed for things that we were probably better off without like intense personalized tracking, popup ads, and blog posts that load very long where the important part is just the text.</p>
+<p>And, some people care, for example, the aforementioned Tim Berners-Lee <a href="https://www.youtube.com/watch?v=zdyrjxa00DE">thinks that the Web needs a mid-course correction</a> because it spreads a lot of fake news and hatred, this is very closely correlated with tracking of users’ behavior and profiling.</p>
+<p>I think that the problem is both technological, political, and also ecological. It is a problem that the politicians, agencies, and corporations want to spy on us but it is also an ethical problem for engineers that we enable this to happen by building the tools.</p>
+<h3 id="good-old-days"><strong>Good old days?</strong></h3>
+<p>Let’s have a quick look and the nostalgia part too. Was the Web nicer before? Free of tentacles of the corporate world?</p>
+<p>Yes and no. No because the dotcom bubble happened very soon (1995 - 200) after the World Wide Web was publicly available (1993). So very soon an important part of the Web was the business. And yes - because parallel to the corporate world another space was created, one of blogs, Geocities, irc. I very much recommend Tech won’t save us podcast for insights into the early Internet and how it was shaped, eg recent episode <a href="https://open.spotify.com/episode/2XhXLQm7fv4twUGy1y5Ji5?si=8acdb4c174a94b41">How the Modern World Shaped the Internet</a>.</p>
+<p>I find it interesting that already in 1998 Tim Berners-Lee said <a href="https://www.w3.org/People/Berners-Lee/UU.html">this</a>:</p>
+<blockquote>
+<p><em>“A lot of people ask me whether I am disappointed that the Web has taken on such a lot of commercial material, rather than being a pure academic space. In fact, I know it could not be universal if it did not allow any form of communication.” Tim Berners-Lee</em></p>
+</blockquote>
+<h3 id="tracking">Tracking</h3>
+<p>I think that we as engineers have dropped the ball on the Web technologies to be honest. I know very well that usually the tracking requirements and dark patterns come from the top in companies but we should do as much as possible to minimise the harm. As in, we don’t need all that personalised data, and the tendency is to track everything. Seeing if the users are using the product as in intended can also work while tracking very specific events and without personal data attached. If the purpose is to sell products, just track what people that buy product A buy also. Stop using cohorts divided into man / woman, young / old. It’s not only invasive to privacy but also serves to reinforce previously existing biases when data is interpreted by engineers.</p>
+<p>On a side note, I wonder how the algorithms are working with trans people like myself, once being in a cohort “men” and later “women”.</p>
+<p>What tracking is also doing is generating a lot of the Web traffic. You first need to download tracking software and then send dozens of requests all the time to track every move. No wonder that websites are slower than they used to be.</p>
+<h3 id="bloat-a-lot-of-bloat">Bloat, a lot of bloat</h3>
+<p>In the last 10 years the average size of a website came from 750 kB to 2-3 MB now (in August 2022), according to <a href="https://httparchive.org/reports/state-of-the-web">httparchive.org</a>. Which means an increase of around 400%.</p>
+<p>This is actually partially due to all the tracking and ads trash that gets send along with the proper HTML. But the last 10 years also coincide with the rise of frameworks like Angular, React and Javascript runtime Node.js. While this is a great step towards making complex Web Apps, it also increased the traffic by a lot and it’s also a mixed result for accessibility.</p>
+<p>The websites may have more interesting code now, but in the last 10 years most of them have not changed drastically - there are a lot of news pages, social medias, online shops, etc. But what has changed is the complexity and size, that goes up every year. And this is certainly not good for people that do not have access to a fast Internet connection, currently it’s already very hard to use the Web without it. Fancy design is nice, but it’s often not too good for accessibility, eg low colour contrast, hard to navigate via readers etc. What is also taking a hit with such big website sizes is the nature. Power used for the Web is somewhat invisible but all this website that calculate a lot of data on our phones are taking up energy that very often does not come from green energy. This is especially horrible in an adjacent space - cryptocurrencies that burn through energy like fire.</p>
+<h3 id="what-to-do">What to do</h3>
+<p>Personally I have adopted 2 approaches to the current Web. Since I am an engineer that works primarily with the frontend part of the Web I try to push projects to be accessible, open source if possible and to respect people’s privacy. It does feel futile very often to be honest, financial motives always prove more important for companies than any other metric. That’s one of the reasons I don’t think that capitalism can change. Nonetheless, I think a “fight from within” is needed, otherwise it would be much worse, eg except for Firefox and Safari all major browsers are using Google’s engine which creates an almost monopoly on what gets developed and what not. But I think the important word there is “almost”. Also when developing the new projects and technologies I can try to predict and limit harmful usage of the tech beforehand.</p>
+<p>The other approach is related to my last point. There are other technologies out there, parallel to the Web that try to correct the wrongs, for example <a href="https://www.notion.so/Documents-were-not-supposed-to-be-Turing-complete-7dee961690054538826e2ad28e782b68">Project Gemini</a>. It does not try to replace the Web but to give an alternative. By default Gemini focuses on markdown and does not allow for dynamic code modification like JavaScript, styling like CSS. This severely limit options to track user’s behaviour, add ads and to create code heavy sites, all this is great. It is not designed to necessarily serve mainstream needs and that’s ok, it’s enough to offer a slower and welcoming place. Feel free to come by to Midnight Pub (gemini://midnight.pub/) (<a href="https://midnight.pub/">Web version</a>) or to read the Smol Zine (gemini://gemini.cyberbot.space/smolzine/). If you would like to browse gemini without a special browser you can use my <a href="proxy.html">proxy</a>, note that it is work in progress and not everything works.</p>
+<p>Other place that is partially inside the Web itself is Fediverse, it’s a set of primarily forums, running mastodon (free clone of twitter). There is also tildeverse with simple websites hosted by passionates, check out <a href="https://tilde.town/">Tilde Town</a>. I really recommend to watch a recent talk by James Tomasino <a href="https://www.youtube.com/watch?v=I2Q35uFCq8Q">Rocking the Web Bloat: Modern Gopher, Gemini and the Small Internet</a>.</p>
+<h3 id="web-apps--can-be-turing-complete">Web Apps  can be Turing Complete</h3>
+<p>That’s a lot of talking, and in the end I think that documents should not be Turing Complete. However, I also think there is a difference between documents and what has evolved to be a proper Web App. Things that provide a real usability like 3d graphics visualisations or maps, there is certainly place for that and I would treat them rather as applications similar to desktop applications than websites. So both can be true, apps can have more complicated code bases but blogs, news sites, etc don’t really need that much.</p>
+
+
+      <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
+      <noscript><link rel="stylesheet" href="style.css"></noscript>
+    </body>

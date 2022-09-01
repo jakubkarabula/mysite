@@ -1,12 +1,17 @@
 const exporter = require('notion-exporter').default
 const { marked } = require('marked')
 const fs = require('fs');
+const path = require('path');
 
 const pages = [
     'e0b7bffb41bc4716ba7510bb2d9accf3',
     '2b84148d7fc1464b90b7bb87c1a9a2ea',
     '15331f3aad9145cabaa4f573f94311de',
-    '2b76c247269b4abbadf3f942380b00d2'
+    '2b76c247269b4abbadf3f942380b00d2',
+    '7dee961690054538826e2ad28e782b68',
+    '029402285c0c423789fff51ea74909bf',
+    '7dee961690054538826e2ad28e782b68',
+    '42d32031c36e420f97279e7819fe4d83'
 ]
 
 const indexPage = '2b84148d7fc1464b90b7bb87c1a9a2ea'
@@ -14,7 +19,7 @@ const indexPage = '2b84148d7fc1464b90b7bb87c1a9a2ea'
 const map = {}
 
 const get = async (id) => {
-    const token = '5230d2c1d09bf598e8f9b84b5310d48e4e0fb498d4eafda8a329da33226247bcde56b94c2b45b99c3791e1f1b6ea74172175855f16776d67ff0201541f5c27013e37f717dda03e5e930bfb9375ea'
+    const token = '6caffaef39e3db00955eb03686c5d99869f666ba2a25ae87961497cd67d675b4cb5ced304584ad12d940d44bb4646dc826087b4424db91a91cbec3c505e38004702add4a9bd899038c085e3ef650'
 
     const md = await new exporter(token).getMdString(id)
     const { mdLocal, links } = updateLinks(md)
@@ -96,10 +101,20 @@ const updateLinks = (md = '') => {
     return { links, mdLocal }
 }
 
-const template = (page, backLinks, id, title) => `
-    <body>
+const getImage = (id, title) => {
+    if (!fs.existsSync('images/' + id + '.png')) {
+        return ''
+    }
 
-        <img class='cover-image' src='${id}.png' alt='${title} cover' /> 
+    return `<img class='cover-image' src='images/${id}.png' alt='${title} cover' /> `
+}
+
+const template = (page, backLinks, id, title) => `
+    <head>
+        <title>${title}</title>
+    </head>
+    <body>
+        ${getImage(id, title)}
         <div class='backlinks'>
         ${backLinks?.length > 0 ? `
             <span>backlinks:</span>
