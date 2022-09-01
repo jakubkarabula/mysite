@@ -2,22 +2,22 @@
 
 html {
     font-family: 'Roboto Mono', monospace;
-    color: #f8f8f2;
-    background-color: #282a36;
+    color: #282a36;
+    background-color: #f8f8f2;
     font-size: 14px;
 }
 
 a {
-    color: #9bb3ff;
+    color: #003dff;
     text-decoration: none;
 }
 
 a:visited {
-    color: #9bb3ff;
+    color: #003dff;
 }
 
 h1, h2, h3, h4 {
-    color: #e0caff;
+    color: #ac71ff;
 }
 
 h3 {
@@ -26,12 +26,12 @@ h3 {
 
 body {
     max-width: 800px;
-    margin: 1em auto;
     padding: 1em;
+    margin: 1em auto;
 }
 
 blockquote {
-  background: #3e4152;
+  background: #ffffff;
   padding: 0.5em 2em;
 }
 
@@ -43,6 +43,5 @@ blockquote {
 img {
     object-fit: scale-down;
     width: 100%;
-    max-height: 250px;
     margin-bottom: 1em;
 }
