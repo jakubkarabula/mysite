@@ -2,6 +2,7 @@ const exporter = require('notion-exporter').default
 const { marked } = require('marked')
 const fs = require('fs');
 var copyfiles = require('copyfiles');
+const { execSync } = require('node:child_process');
 
 const pages = [
     'e0b7bffb41bc4716ba7510bb2d9accf3',
@@ -90,8 +91,15 @@ const run = async () => {
     console.log('Will copy images...')
 
     copyfiles(['images/*', 'docs/'], {}, () => {})
+    copyfiles(['images/*', 'gemini/'], {}, () => {})
 
     console.log('Copied images...')
+
+    console.log('\nWill generate gemini...')
+
+    gemini()
+
+    console.log('Generated gemini...')
 
     console.log('\nEnding. Kthbai')
 }
@@ -122,6 +130,18 @@ const getImage = (id, title) => {
     }
 
     return `<img class='cover-image' src='images/${id}.png' alt='${title} cover' /> `
+}
+
+const gemini = () => {
+    Object.keys(map).forEach((id) => {
+        const gem = execSync(`md2gemini md/${id}.md`).toString()
+
+        fs.writeFileSync(`gemini/${id}.gmi`, gem)
+
+        if (id === indexPage) {
+            fs.writeFileSync(`gemini/index.gmi`, gem)
+        }
+    })
 }
 
 const template = (page, backLinks, id, title) => `
