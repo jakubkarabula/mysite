@@ -89,7 +89,7 @@ const run = async () => {
 
     console.log('Will copy images...')
 
-    copyfiles(['images/*', 'docs/images/'], {}, () => {})
+    copyfiles(['images/*', 'docs/'], {}, () => {})
 
     console.log('Copied images...')
 
