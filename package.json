@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@notionhq/client": "^1.0.4",
+    "copyfiles": "^2.4.1",
     "marked": "^4.0.16",
     "notion-client": "^6.12.9",
     "notion-content-render": "^1.0.3",

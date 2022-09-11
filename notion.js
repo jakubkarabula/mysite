@@ -1,7 +1,7 @@
 const exporter = require('notion-exporter').default
 const { marked } = require('marked')
 const fs = require('fs');
-const path = require('path');
+var copyfiles = require('copyfiles');
 
 const pages = [
     'e0b7bffb41bc4716ba7510bb2d9accf3',
@@ -87,7 +87,13 @@ const run = async () => {
     })
     console.log('Saved all pages\n')
 
-    console.log('Ending. Kthbai')
+    console.log('Will copy images...')
+
+    copyfiles(['images/*', 'docs/images/'], {}, () => {})
+
+    console.log('Copied images...')
+
+    console.log('\nEnding. Kthbai')
 }
 
 const getTitle = (md = '') => {
@@ -115,7 +121,7 @@ const getImage = (id, title) => {
         return ''
     }
 
-    return `<img class='cover-image' src='../images/${id}.png' alt='${title} cover' /> `
+    return `<img class='cover-image' src='images/${id}.png' alt='${title} cover' /> `
 }
 
 const template = (page, backLinks, id, title) => `
