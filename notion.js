@@ -69,14 +69,14 @@ const run = async () => {
             console.log(id, content.title, 'this page had no content')
         }
 
-        fs.writeFile('./html/' + id + '.html', template(content.html, content.links, id, content.title), err => {
+        fs.writeFile('./docs/' + id + '.html', template(content.html, content.links, id, content.title), err => {
             if (err) {
             console.error(err);
             }
         });
 
         if (id === indexPage) {
-            fs.writeFile('./html/index.html', template(content.html, content.links, id, content.title), err => {
+            fs.writeFile('./docs/index.html', template(content.html, content.links, id, content.title), err => {
                 if (err) {
                 console.error(err);
                 }
