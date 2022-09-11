@@ -23,9 +23,15 @@ const get = async (id) => {
     const token = '6caffaef39e3db00955eb03686c5d99869f666ba2a25ae87961497cd67d675b4cb5ced304584ad12d940d44bb4646dc826087b4424db91a91cbec3c505e38004702add4a9bd899038c085e3ef650'
 
     const md = await new exporter(token).getMdString(id)
-    const { mdLocal, links } = updateLinks(md)
+    const { mdLocal, links } = updateLinks(md, 'html')
+    const { mdLocal: mdLocalGMI } = updateLinks(md, 'gmi')
+
+    fs.writeFileSync('md/' + id + '.md', mdLocalGMI)
+
     const html = marked.parse(mdLocal);
     const title = getTitle(md)
+
+    console.log('\t' + title)
 
     if (!map[id]) {
         map[id] = {
@@ -63,19 +69,21 @@ const run = async () => {
             console.log(id, content.title, 'this page had no content')
         }
 
-        fs.writeFile('./' + id + '.html', template(content.html, content.links, id, content.title), err => {
+        fs.writeFile('./html/' + id + '.html', template(content.html, content.links, id, content.title), err => {
             if (err) {
             console.error(err);
             }
         });
 
         if (id === indexPage) {
-            fs.writeFile('./index.html', template(content.html, content.links, id, content.title), err => {
+            fs.writeFile('./html/index.html', template(content.html, content.links, id, content.title), err => {
                 if (err) {
                 console.error(err);
                 }
             });
         }
+
+        console.log('\t' + content.title)
     })
     console.log('Saved all pages\n')
 
@@ -87,7 +95,7 @@ const getTitle = (md = '') => {
     return header?.slice(2)
 }
 
-const updateLinks = (md = '') => {
+const updateLinks = (md = '', extension = 'html') => {
     const links = []
 
     const mdLocal = md.replace(/\[.*\]\(.*notion\.so.*\)/g, (link) => {
@@ -96,7 +104,7 @@ const updateLinks = (md = '') => {
 
        links.push([name, id])
 
-        return `[${name}](${id}.html)`
+        return `[${name}](${id}.${extension})`
     })
 
     return { links, mdLocal }
@@ -107,7 +115,7 @@ const getImage = (id, title) => {
         return ''
     }
 
-    return `<img class='cover-image' src='images/${id}.png' alt='${title} cover' /> `
+    return `<img class='cover-image' src='../images/${id}.png' alt='${title} cover' /> `
 }
 
 const template = (page, backLinks, id, title) => `
