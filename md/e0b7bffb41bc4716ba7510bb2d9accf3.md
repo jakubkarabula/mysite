@@ -21,18 +21,29 @@ I have another idea. It's a bit cursed but it's quite pleasant to work with so f
 
 ### Todo
 
-- [x]  Terminal app
-- [x]  Moving windows in free float mode
-- [x]  Moving windows in stack mode
-- [x]  Resizing windows in free float mode
-- [x]  Resizing windows in stack mode [wip]
-- [ ]  Image app [wip]
-- [x]  https
-- [ ]  Video app (use case for wasm with vlc)
-- [ ]  Dmenu app
-- [x]  App / Widget imports
-- [x]  cli that communicates with a deamon
-- [ ]  skhd connected to cli (example)
+[x] Terminal app
+
+[x] Moving windows in free float mode
+
+[x] Moving windows in stack mode
+
+[x] Resizing windows in free float mode
+
+[x] Resizing windows in stack mode [wip]
+
+[ ] Image app [wip]
+
+[x] https
+
+[ ] Video app (use case for wasm with vlc)
+
+[ ] Dmenu app
+
+[x] App / Widget imports
+
+[x] cli that communicates with a deamon
+
+[ ] skhd connected to cli (example)
 
 ### Repository
 
