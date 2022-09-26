@@ -31,7 +31,7 @@ const get = async (id) => {
 
   fs.writeFileSync('md/' + id + '.md', mdLocalGMI)
 
-  const html = marked.parse(mdLocal)
+  const html = marked.parse(mdLocal).replace(/\<a /g, '<a target="_blank" ')
   const title = getTitle(md)
 
   console.log('\t' + title)
