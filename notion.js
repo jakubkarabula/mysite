@@ -162,6 +162,11 @@ const gemini = () => {
 const template = (page, backLinks, id, title) => `
     <head>
         <title>${title}</title>
+        <meta property="og:title" content="${title}" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@MayaKarabula" />
+        <meta name="twitter:creator" content="@MayaKarabula" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/mmm.png" />        
     </head>
     <body>
         ${getImage(id, title)}
