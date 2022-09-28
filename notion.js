@@ -15,6 +15,7 @@ const pages = [
   '42d32031c36e420f97279e7819fe4d83',
   'c382d3ef84f34e92b57f0315d5f72f07',
   'a0d53d3cfd66469187bea1841b1a2823',
+  'f591348bc9134fd9a5ccbdbfed992810',
 ]
 
 const indexPage = '2b84148d7fc1464b90b7bb87c1a9a2ea'
