@@ -34,6 +34,7 @@ const get = async (id) => {
 
   const html = marked.parse(mdLocal).replace(/\<a /g, '<a target="_blank" ')
   const title = getTitle(md)
+  const description = getDescription(html)
 
   console.log('\t' + title)
 
@@ -45,6 +46,7 @@ const get = async (id) => {
 
   map[id].html = html
   map[id].title = title
+  map[id].description = description
 
   links.forEach(([, linkId]) => {
     if (!map[linkId]) {
@@ -75,7 +77,13 @@ const run = async () => {
 
     fs.writeFile(
       './docs/' + id + '.html',
-      template(content.html, content.links, id, content.title),
+      template(
+        content.html,
+        content.links,
+        id,
+        content.title,
+        content.description,
+      ),
       (err) => {
         if (err) {
           console.error(err)
@@ -86,7 +94,13 @@ const run = async () => {
     if (id === indexPage) {
       fs.writeFile(
         './docs/index.html',
-        template(content.html, content.links, id, content.title),
+        template(
+          content.html,
+          content.links,
+          id,
+          content.title,
+          content.description,
+        ),
         (err) => {
           if (err) {
             console.error(err)
@@ -118,6 +132,13 @@ const run = async () => {
 const getTitle = (md = '') => {
   const header = md.match(/\#\s.*/)?.[0]
   return header?.slice(2)
+}
+
+const getDescription = (html = '') => {
+  const firstParagraph =
+    html.match(/<p>.*/)[0]?.replace('<p>', '')?.replace('</p>', '') || ''
+
+  return firstParagraph.split(' ').slice(0, 30).join(' ') + '...'
 }
 
 const updateLinks = (md = '', extension = 'html') => {
@@ -159,10 +180,11 @@ const gemini = () => {
   })
 }
 
-const template = (page, backLinks, id, title) => `
+const template = (page, backLinks, id, title, description) => `
     <head>
         <title>${title}</title>
         <meta property="og:title" content="${title}" />
+        <meta property="og:description" content="${description}" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@MayaKarabula" />
         <meta name="twitter:creator" content="@MayaKarabula" />
