@@ -32,7 +32,7 @@ const get = async (id) => {
 
   fs.writeFileSync('md/' + id + '.md', mdLocalGMI)
 
-  const html = marked.parse(mdLocal).replace(/\<a /g, '<a target="_blank" ')
+  const html = marked.parse(mdLocal)
   const title = getTitle(md)
   const description = getDescription(html)
 
@@ -136,7 +136,7 @@ const getTitle = (md = '') => {
 
 const getDescription = (html = '') => {
   const firstParagraph =
-    html.match(/<p>.*/)[0]?.replace('<p>', '')?.replace('</p>', '') || ''
+    html.match(/<p>.*/)?.[0]?.replace(/<\/?[^>]+(>|$)/g, '') || ''
 
   return firstParagraph.split(' ').slice(0, 30).join(' ') + '...'
 }
@@ -154,7 +154,7 @@ const updateLinks = (md = '', extension = 'html') => {
 
     links.push([name, id])
 
-    return `[${name}](${id}.${extension})`
+    return `[~ ${name}](${id}.${extension})`
   })
 
   return { links, mdLocal }
@@ -210,6 +210,12 @@ const template = (page, backLinks, id, title, description) => `
         }
         </div>
         ${page}
+        <footer>
+        <hr/>
+          <a href="https://webring.xxiivv.com/#your-id-here" target="_blank" rel="noopener">
+            <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
+          </a>
+        </footer>
 
       <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
       <noscript><link rel="stylesheet" href="style.css"></noscript>
