@@ -51,10 +51,17 @@ img {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+}
+
+hr {
   margin-top: 3em;
 }
 
 footer img {
   height: 30px;
   width: auto;
+  margin-bottom: 0;
+  margin-right: 1em;
 }

@@ -1,38 +1,31 @@
-const exporter = require('notion-exporter').default
 const { marked } = require('marked')
 const fs = require('fs')
 var copyfiles = require('copyfiles')
 const { execSync } = require('node:child_process')
 
 const pages = [
-  'e0b7bffb41bc4716ba7510bb2d9accf3',
-  '2b84148d7fc1464b90b7bb87c1a9a2ea',
-  '15331f3aad9145cabaa4f573f94311de',
-  '2b76c247269b4abbadf3f942380b00d2',
-  '7dee961690054538826e2ad28e782b68',
-  '029402285c0c423789fff51ea74909bf',
-  '7dee961690054538826e2ad28e782b68',
-  '42d32031c36e420f97279e7819fe4d83',
-  'c382d3ef84f34e92b57f0315d5f72f07',
-  'a0d53d3cfd66469187bea1841b1a2823',
-  'f591348bc9134fd9a5ccbdbfed992810',
+  'documents-were-not-supposed-to-be',
+  'flora-fauna',
+  'jswm-javascript-window-manager',
+  'poland-still-breaks-my-heart',
+  'reading-list',
+  'donica-semiautomated-farming',
+  'index',
+  'listening-list',
+  'posthuman-condition',
+  'szklo-3d-engine',
 ]
 
-const indexPage = '2b84148d7fc1464b90b7bb87c1a9a2ea'
+const indexPage = 'index'
 
 const map = {}
 
 const get = async (id) => {
-  const token =
-    '6caffaef39e3db00955eb03686c5d99869f666ba2a25ae87961497cd67d675b4cb5ced304584ad12d940d44bb4646dc826087b4424db91a91cbec3c505e38004702add4a9bd899038c085e3ef650'
+  const md = fs.readFileSync('md/' + id + '.md').toString()
 
-  const md = await new exporter(token).getMdString(id)
-  const { mdLocal, links } = updateLinks(md, 'html')
-  const { mdLocal: mdLocalGMI } = updateLinks(md, 'gmi')
+  const { links } = getLinks(md)
 
-  fs.writeFileSync('md/' + id + '.md', mdLocalGMI)
-
-  const html = marked.parse(mdLocal)
+  const html = marked.parse(md)
   const title = getTitle(md)
   const description = getDescription(html)
 
@@ -120,9 +113,9 @@ const run = async () => {
 
   console.log('Copied images...')
 
-  console.log('\nWill generate gemini...')
+  //   console.log('\nWill generate gemini...')
 
-  gemini()
+  //   gemini()
 
   console.log('Generated gemini...')
 
@@ -141,23 +134,17 @@ const getDescription = (html = '') => {
   return firstParagraph.split(' ').slice(0, 30).join(' ') + '...'
 }
 
-const updateLinks = (md = '', extension = 'html') => {
+const getLinks = (md = '') => {
   const links = []
 
-  const mdLocal = md.replace(/\[.*\]\(.*notion\.so.*\)/g, (link) => {
-    const name = link.match(/\[.*\]/g)?.[0]?.slice(1, -1)
-    const id = link
-      .match(/\(.*\)/g)?.[0]
-      ?.slice(1, -1)
-      ?.split('-')
-      .pop()
+  md.match(/\[.*\]\([a-z0-9-]+.html\)/g)?.forEach((link) => {
+    const name = link.match(/\[.*\]/)?.[0]?.slice(1, -1)
+    const id = link.match(/[a-z0-9-]+.html/)?.[0]?.replace('.html', '')
 
     links.push([name, id])
-
-    return `[~ ${name}](${id}.${extension})`
   })
 
-  return { links, mdLocal }
+  return { links }
 }
 
 const getImage = (id, title) => {
@@ -188,7 +175,7 @@ const template = (page, backLinks, id, title, description) => `
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@MayaKarabula" />
         <meta name="twitter:creator" content="@MayaKarabula" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/mmm.png" />        
+        <meta property="og:image" content="https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/mmm.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -207,7 +194,7 @@ const template = (page, backLinks, id, title, description) => `
                 ${backLinks
                   .map(
                     ({ title: linkTitle, id: linkId }) =>
-                      `<li><a href='${linkId}.html'>${linkTitle}</a></li>`,
+                      `<li><a href='${linkId}.html'>~ ${linkTitle}</a></li>`,
                   )
                   .join('')}
             </ul>
