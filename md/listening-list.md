@@ -16,6 +16,8 @@ Most of the links are to spotify
 
 [The Violent Youth](https://open.spotify.com/artist/4pJjNwM3lqXat3Qpxhnc6n)
 
+[IC3PEAK](https://open.spotify.com/artist/3luonLzvSOxdU8ytCaEIK8)
+
 ### soulful pop
 
 [Luna](https://open.spotify.com/artist/4sTO5nmBIlTF35aTnt6U7n)
@@ -26,6 +28,18 @@ Most of the links are to spotify
 
 [My](https://open.spotify.com/artist/3WGL5CRtgYd8Tm5elcbsdV)
 
+### hip-hop
+
+[Bambu](https://open.spotify.com/artist/0iPS5GpwbHSmgNXfGE674K)
+
+[P.O.S](https://open.spotify.com/artist/4sH7SLGP6BLOYDtcP6Lm47)
+
 ### podcasts
 
 [Tech won't save us](https://open.spotify.com/show/3UhsI7s4bkH1FcMZI5u9iD)
+
+[PlasticPills](https://open.spotify.com/show/42WcZyq7ppEwwVhK51xuFw)
+
+[Rev Left Radio](https://open.spotify.com/show/24xH4OGJgfKi09pzjiMv5O)
+
+[Immediatism](https://open.spotify.com/show/3r736J7mp7rp9TKXdQAPNw)
