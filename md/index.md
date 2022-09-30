@@ -32,6 +32,8 @@ I am also very passionate about ecology. This is why I have built this website t
 
 [~ 📖 My reading list (psychology, sociology, feminism, diaries, prose)](reading-list.html)
 
+[~ 🎹 My listening list (music, podcasts)](listening-list.html)
+
 **2022**
 
 [~ 🏳️‍⚧️ 28.09.2022 - Poland still breaks my heart after leaving it behind](poland-still-breaks-my-heart.html)
