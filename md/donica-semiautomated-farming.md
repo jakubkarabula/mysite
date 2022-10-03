@@ -1,4 +1,4 @@
-# 🌱 Donica - semiautomated  farming
+# 🌱 Donica - semiautomated farming
 
 ## Hardware
 
@@ -6,13 +6,13 @@ pot
 
 basil seedlings
 
-[Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+[> Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 
-[DHT22 sensor](https://learn.adafruit.com/dht)
+[> DHT22 sensor](https://learn.adafruit.com/dht)
 
 ## Software
 
-[Adafruit DHT](https://github.com/adafruit/Adafruit_Python_DHT)
+[> Adafruit DHT](https://github.com/adafruit/Adafruit_Python_DHT)
 
 ## Manifesto
 
@@ -24,7 +24,7 @@ I live in an old tenement. But I love the flora that surrounds me in central Eur
 
 This project was on hold for a while since the plants didn't want to grow in the kitchen. I think I need to move them to a warmer place. In the meantime I have also found an interesting community garden - Himmel Beet.
 
-[Startseite - Himmelbeet Gemeinschaftsgarten](https://himmelbeet.de/)
+[> Startseite - Himmelbeet Gemeinschaftsgarten](https://himmelbeet.de/)
 
 **18 Oct 2021**
 
@@ -34,7 +34,7 @@ I made a progress on a simple server for data points collection (for now tempera
 
 The idea with the software is simple - provide YML files with object model schemas as input and receive CRUD API server connected to Mongo DB as output.
 
-[https://github.com/jakubkarabula/mini-mango](https://github.com/jakubkarabula/mini-mango)
+[> https://github.com/jakubkarabula/mini-mango](https://github.com/jakubkarabula/mini-mango)
 
 **24 Sept 2021**
 
