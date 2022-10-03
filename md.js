@@ -14,6 +14,7 @@ const pages = [
   'listening-list',
   'posthuman-condition',
   'szklo-3d-engine',
+  'professional',
 ]
 
 const indexPage = 'index'
@@ -187,7 +188,7 @@ const template = (page, backLinks, id, title, description) => `
         ${getImage(id, title)}
         <div class='backlinks'>
         ${
-          backLinks?.length > 0
+          backLinks?.length > 0 && id !== 'professional'
             ? `
             <span>backlinks:</span>
             <ul>

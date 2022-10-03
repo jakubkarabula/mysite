@@ -8,9 +8,9 @@ I am also very passionate about ecology. This is why I have built this website t
 
 ### Profiles:
 
-[Github](https://github.com/mayakarabula)
+[> Github](https://github.com/mayakarabula)
 
-[Linkedin](https://www.linkedin.com/in/maya-karabu%C5%82a-stysiak-a8356112a/)
+[~ Professional](professional.html)
 
 ### Projects
 
@@ -20,13 +20,7 @@ I am also very passionate about ecology. This is why I have built this website t
 
 [~ 🪟 Szklo - 3D engine or reinventing the wheel](szklo-3d-engine.html)
 
-[♊️ Gemini to HTTP Proxy [github]](https://github.com/mayakarabula/gemini-proxy)
-
-### Posts related to professional work
-
-[React integration with Azure and ASP.NET core [medium]](https://jakub-karabula-stysiak.medium.com/react-integration-with-azure-and-asp-net-core-9651929ae3f9)
-
-[Our experience with Azure Active Directory B2C [medium]](https://jakub-karabula-stysiak.medium.com/our-experience-with-ad-b2c-6e2cc6cfa7f9)
+[> ♊️ Gemini to HTTP Proxy [github]](https://github.com/mayakarabula/gemini-proxy)
 
 ### Logs, lists, now
 
@@ -46,4 +40,4 @@ I am also very passionate about ecology. This is why I have built this website t
 
 ### Other links
 
-[The small web is beautiful [external]](https://benhoyt.com/writings/the-small-web-is-beautiful/)
+[> The small web is beautiful [external]](https://benhoyt.com/writings/the-small-web-is-beautiful/)
