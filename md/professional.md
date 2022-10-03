@@ -1,5 +1,9 @@
 # Maya Karabula-Stysiak
 
+Hello, my name is Maya. I work as a software / web engineer and I am located in Berlin. I have primarily experience with frontend technologies (React) but I am no stranger to backend (node, asp.net, ruby on rails) and adjecent topics like tracking, testing, devops.
+
+Below you can find some more information about my work experience.
+
 ## 1. Contact
 
 [Linkedin](https://www.linkedin.com/in/maya-karabu%C5%82a-stysiak-a8356112a/)
