@@ -30,9 +30,13 @@ I am also very passionate about ecology. This is why I have built this website t
 
 **2022**
 
+[~ ◼️ 06.10.2022 - Hey Malevich, how are you?](malevich.html)
+
+[~ 🐰 06.10.2022 - Jswm + Uxn](jswm-uxn.html)
+
 [~ 🏳️‍⚧️ 28.09.2022 - Poland still breaks my heart after leaving it behind](poland-still-breaks-my-heart.html)
 
-[~ 🤖 14.09.2022 - Thought on posthuman condition in late stage capitalism](posthuman-condition.html)
+[~ 🤖 14.09.2022 - Thought on posthuman condition](posthuman-condition.html)
 
 [~ 🐿 01.09.2022 - Flora & Fauna](flora-fauna.html)
 

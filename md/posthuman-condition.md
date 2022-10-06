@@ -1,4 +1,4 @@
-# 🤖 14.09.2022 - Thought on posthuman condition in late stage capitalism
+# 🤖 14.09.2022 - Thought on posthuman condition
 
 Societies are run by machines, just like Deleuze said; and how Plastic Pill has very well summarised in his pod episodes, links below. Machines are systems that classify people by different properties and later exercise control over them, look to Foucault on how different systems oppress and control people to adhere to norms. Some systems have evolved to use access control rather than direct discipline, eg design infrastructure that promotes one mode of transportation. In the end whatever way systems apply to us, they see us as sets of properties rather than subjects, now we are negated. In this sense capitalism is posthuman, because it is changing the subject from human to data sets. We as humans can only have a human-oriented view of the world.
 

@@ -18,11 +18,11 @@ Below you can find some more information about my work experience.
 
 [Open vCPE & SD-WAN Solution powered by Cloudify - UI [youtube]](https://www.youtube.com/watch?v=xjn4gyXKAM8)
 
-## 3. Recent work experience (full on linkedin)
+## 3. Recent work experience (full on Linkedin)
 
 ### Contentful, Senior Software Engineer (currently)
 
-- Helping to ship a new application (Merge App) to major customers, leading development of parts of said application (eg introducing a way to integrate it with CI/CD).
+- Helping to ship a new application (Merge App) to major customers, leading the development of parts of the said application (eg introducing a way to integrate it with CI/CD).
 
 [Merge App on Contentful](https://www.contentful.com/marketplace/app/merge/)
 
@@ -43,7 +43,7 @@ HelloFresh GO is a company that started as a project within HelloFresh
 
 - Working on the visual interfaces for web applications facing B2C and B2B clients.
 - API and features on the backend.
-- Testing - designing solutions for integration tests, unit tests, A/B testing, tracking.
+- Testing - designing solutions for integration tests, unit tests, A/B testing, and tracking.
 - Additionally I had experience with setups on AWS and Google Cloud.
 
 [Heyjobs website](https://www.heyjobs.co/de-de)

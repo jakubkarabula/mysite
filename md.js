@@ -15,6 +15,8 @@ const pages = [
   'posthuman-condition',
   'szklo-3d-engine',
   'professional',
+  'jswm-uxn',
+  'malevich',
 ]
 
 const indexPage = 'index'

@@ -2,7 +2,7 @@
 
 Most of the links are to spotify
 
-### post-punk, post-soviet, synth-pop
+### post-punk, post-soviet, synth-pop, soulful-pop
 
 [Shortparis](https://open.spotify.com/artist/61j4FFbKlzdYihMtpM1hZD)
 
@@ -18,8 +18,6 @@ Most of the links are to spotify
 
 [IC3PEAK](https://open.spotify.com/artist/3luonLzvSOxdU8ytCaEIK8)
 
-### soulful pop
-
 [Luna](https://open.spotify.com/artist/4sTO5nmBIlTF35aTnt6U7n)
 
 [Foilar](https://open.spotify.com/artist/5PMq1pXESy1SSNHgiuT7Ea)
@@ -27,6 +25,18 @@ Most of the links are to spotify
 [Monetochka](https://open.spotify.com/artist/0yp6xP5xe1qarfugfTixOK)
 
 [My](https://open.spotify.com/artist/3WGL5CRtgYd8Tm5elcbsdV)
+
+[Vollny](https://open.spotify.com/artist/7JicwePFjrTsQusfRCaM1P?si=F3C8uN3UQWqrPx84aquVqA)
+
+[Molchat Doma](https://open.spotify.com/artist/1nVq0hKIVReeaiB3xJgKf0?si=GE3IRP9vRqmZ9vyRKeUxAA)
+
+[Nürnberg](https://open.spotify.com/artist/2IkTGThCeQAPGMru4uXzs4?si=TPlAshDIRbOOX63NIhbm0A)
+
+[Utro](https://open.spotify.com/artist/3KzQbvnYBpg4JNgZnPeCx2?si=Lb9nIf3gTAmFqHR0Vvc3pg)
+
+[Buerak](https://open.spotify.com/artist/2L1ldSV7eVssSmGfPAZyKc?si=w-K4J4ouRaOe2aaP8g14CQ)
+
+[My playlist Новая-Новая волна](https://open.spotify.com/playlist/78exfVFkJfnMmEclRGJ6tv?si=596ca4ce807b4303)
 
 ### hip-hop
 
