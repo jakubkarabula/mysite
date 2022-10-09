@@ -8,7 +8,7 @@ Some time ago I have seen a meme about JavaScript and the current state of the W
 
 ### Ok, but what is Turing Complete, and what is a Document? (if you know then skip this paragraph)
 
-Turing Complete means more or less that a system can solve any computational problem, things such as addition and multiplication but also more complex like math for 3d graphics, and many more. A document is a shared piece of information on the Web, like a blog post. Coming back to the meme, it means that websites were supposed to be pure text and not systems that can solve any computable problem. 
+Turing Complete means more or less that a system can solve any computational problem, things such as addition and multiplication but also more complex like math for 3d graphics, and many more. A document is a shared piece of information on the Web, like a blog post. Coming back to the meme, it means that websites were supposed to be pure text and not systems that can solve any computable problem.
 
 [JavaScript is in fact Turing Complete](https://www.freecodecamp.org/news/javascript-is-turing-complete-explained-41a34287d263/#:~:text=Now%20if%20you%20think%20about,That%27s%20it!)
 
@@ -20,14 +20,14 @@ Turing Complete means more or less that a system can solve any computational pro
 
 Long story short yes-ish. If you read WorldWideWeb: Proposal for a HyperText Project by Tim Berners-Lee, which I recommend, you can find this:
 
-> *The project will operate in a certain well-defined subset of the subject area often associated with the "Hypertext" tag. It will aim:*
-> 
-> - *to provide a common (simple) protocol for requesting human readable information stored at a remote system, using networks; (…)*
-> 
-> ***The project will not aim (…)***
-> 
-> - *to do research into fancy multimedia facilities such as sound and video;*
-> - *to use sophisticated network authorisation systems. data will be either readable by the world (literally), or will be readable only on one file system, in which case the file system's protection system will be used for privacy. All network traffic will be public.*
+> _The project will operate in a certain well-defined subset of the subject area often associated with the "Hypertext" tag. It will aim:_
+>
+> - _to provide a common (simple) protocol for requesting human readable information stored at a remote system, using networks; (…)_
+>
+> **_The project will not aim (…)_**
+>
+> - _to do research into fancy multimedia facilities such as sound and video;_
+> - _to use sophisticated network authorisation systems. data will be either readable by the world (literally), or will be readable only on one file system, in which case the file system's protection system will be used for privacy. All network traffic will be public._
 
 Ok, so human-readable format, no fancy stuff like sound or video, no authorization. Current websites have certainly moved from that initial state. What I get from the proposal is that the documents were supposed to be text with links to other documents. Does not sound like a computational system, fair enough, not Turing Complete.
 
@@ -51,10 +51,9 @@ Yes and no. No because the dotcom bubble happened very soon (1995 - 200) after t
 
 [How the Modern World Shaped the Internet](https://open.spotify.com/episode/2XhXLQm7fv4twUGy1y5Ji5?si=8acdb4c174a94b41).
 
-I find it interesting that already in 1998  said:
+I find it interesting that already in 1998 said:
 
-> *“A lot of people ask me whether I am disappointed that the Web has taken on such a lot of commercial material, rather than being a pure academic space. In fact, I know it could not be universal if it did not allow any form of communication.”*
-> 
+> _“A lot of people ask me whether I am disappointed that the Web has taken on such a lot of commercial material, rather than being a pure academic space. In fact, I know it could not be universal if it did not allow any form of communication.”_
 
 [The World Wide Web and the "Web of Life" Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/UU.html)
 
@@ -74,7 +73,7 @@ This is actually partially due to all the tracking and ads trash that gets send 
 
 The websites may have more interesting code now, but in the last 10 years most of them have not changed drastically - there are a lot of news pages, social medias, online shops, etc. But what has changed is the complexity and size, that goes up every year. And this is certainly not good for people that do not have access to a fast Internet connection, currently it’s already very hard to use the Web without it. Fancy design is nice, but it’s often not too good for accessibility, eg low colour contrast, hard to navigate via readers etc. What is also taking a hit with such big website sizes is the nature. Power used for the Web is somewhat invisible but all this website that calculate a lot of data on our phones are taking up energy that very often does not come from green energy. This is especially horrible in an adjacent space - cryptocurrencies that burn through energy like fire.
 
-I recommend going to website carbon calculator and checking an estimate to how much carbon websites are generating. Websites like BBC and CNN (according to this website’s estimates) are generating around 140kg of CO2 for every 10k visitors a month. And I don’t mean to say to not go to bloated websites but rather as call to action for engineers. 
+I recommend going to website carbon calculator and checking an estimate to how much carbon websites are generating. Websites like BBC and CNN (according to this website’s estimates) are generating around 140kg of CO2 for every 10k visitors a month. And I don’t mean to say to not go to bloated websites but rather as call to action for engineers.
 
 [Website Carbon calculator](https://www.websitecarbon.com/)
 
@@ -96,6 +95,6 @@ Other place that is partially inside the Web itself is Fediverse, it’s a set o
 
 [Tilde Town](https://tilde.town/)
 
-### Web Apps  can be Turing Complete
+### Web Apps can be Turing Complete
 
 That’s a lot of talking, and in the end I think that documents should not be Turing Complete. However, I also think there is a difference between documents and what has evolved to be a proper Web App. Things that provide a real usability like 3d graphics visualisations or maps, there is certainly place for that and I would treat them rather as applications similar to desktop applications than websites. So both can be true, apps can have more complicated code bases but blogs, news sites, etc don’t really need that much.

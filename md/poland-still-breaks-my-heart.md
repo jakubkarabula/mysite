@@ -12,6 +12,6 @@ I will not do it. I will wait a bit longer to get German citizenship. In that ti
 
 [Germany unveils plans for simpler legal gender change process (dw.com)](https://www.dw.com/en/germany-unveils-plans-for-simpler-legal-gender-change-process/a-62315345)
 
-![https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/Et2uV4bXEAImBfw.jpeg](https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/Et2uV4bXEAImBfw.jpeg)
+![trans liberation now](images/Et2uV4bXEAImBfw.jpeg)
 
 [“I hate you Poland” by Czesław Śpiewa, from The Book of Polish Emigrants](https://www.youtube.com/watch?v=TXeYjPZVUuo)

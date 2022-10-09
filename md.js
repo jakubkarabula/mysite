@@ -3,21 +3,7 @@ const fs = require('fs')
 var copyfiles = require('copyfiles')
 const { execSync } = require('node:child_process')
 
-const pages = [
-  'documents-were-not-supposed-to-be',
-  'flora-fauna',
-  'jswm-javascript-window-manager',
-  'poland-still-breaks-my-heart',
-  'reading-list',
-  'donica-semiautomated-farming',
-  'index',
-  'listening-list',
-  'posthuman-condition',
-  'szklo-3d-engine',
-  'professional',
-  'jswm-uxn',
-  'malevich',
-]
+const pages = fs.readdirSync('md/').map((file) => file.replace('.md', ''))
 
 const indexPage = 'index'
 
@@ -32,7 +18,7 @@ const get = async (id) => {
   const title = getTitle(md)
   const description = getDescription(html)
 
-  console.log('\t' + title)
+  console.log('\t' + id)
 
   if (!map[id]) {
     map[id] = {
@@ -60,11 +46,11 @@ const get = async (id) => {
 const run = async () => {
   console.log('Starting the page generation\n')
 
-  console.log('Will download pages...')
+  console.log('Will read pages...')
   await Promise.all(pages.map((page) => get(page)))
   console.log('Downloaded all pages\n')
 
-  console.log('Will save pages...')
+  console.log('Will read pages...')
 
   Object.entries(map).forEach(([id, content]) => {
     if (content.html === '') {
@@ -105,7 +91,7 @@ const run = async () => {
       )
     }
 
-    console.log('\t' + content.title)
+    console.log('\t' + id)
   })
   console.log('Saved all pages\n')
 
