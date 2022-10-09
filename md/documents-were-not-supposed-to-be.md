@@ -4,7 +4,7 @@
 
 Some time ago I have seen a meme about JavaScript and the current state of the Web, that the documents were not supposed to be Turing Complete. Which is a call out of how unnecessarily complex current websites are - a ton of scripting just to display a page with an article, news, a product, etc.
 
-![https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/js-documents-tc.png](https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/js-documents-tc.png)
+![js documents tweet](images/js-documents-tc.png)
 
 ### Ok, but what is Turing Complete, and what is a Document? (if you know then skip this paragraph)
 

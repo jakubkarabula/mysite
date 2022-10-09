@@ -48,4 +48,4 @@ I think to extend usability of the sensor to record temperature in my living roo
 
 I have got a dht 22 via post. I connected it to rpi. It reads temperature and humidity correctly. 27 degrees Celsius, 52% humidity. It's exciting, my first experience with connecting something psychical to rpi. One year after using it mostly as an adblocker and server.
 
-![https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/d3.png](https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/d3.png)
+![dht 22 with raspberry pi](images/d3.png)
