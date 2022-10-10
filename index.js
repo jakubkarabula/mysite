@@ -14,6 +14,4 @@ app.on('/', (_req, res) => {
   res.file(path.resolve('gemini', 'index.gmi'))
 })
 
-module.exports = app.listen(1965, () => {
-  console.log('Listening...')
-})
+module.exports = app
