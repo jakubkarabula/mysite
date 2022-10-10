@@ -1,4 +1,3 @@
-export default function handler(req, res) {
-  const { name = 'World' } = req.query
-  return res.send(`Hello ${name}!`)
-}
+module.exports = http.createServer((req, res) => {
+  res.end('hello')
+})
