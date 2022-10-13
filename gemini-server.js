@@ -10,8 +10,16 @@ const options = {
 
 const app = gemini(options)
 
-app.on('/', (_req, res) => {
-  res.file(path.resolve('gemini', 'index.gmi'))
+app.use((req, res) => {
+  console.log('Handling path', req.path)
+
+  if (req.path === '/') {
+    res.file(path.resolve('gemini', 'index.gmi'))
+  }
+
+  res.file('gemini' + req.path)
 })
 
-module.exports = app
+app.listen(1965, () => {
+  console.log('listening on port 1965')
+})

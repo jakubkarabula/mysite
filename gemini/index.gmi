@@ -5,3 +5,43 @@
 I am working as a software developer and I am also doing some coding experiments in my free time. I like to make my own tools, mainly software.
 
 I am also very passionate about ecology. This is why I have built this website to use primarily HTML and css. It's a part of small web movement emerging now in the Internet that brings attention to the impact the technology and current websites have on the environment, society and data ownership, there is also nostalgia for the early web. I also support degrowth and moving away from capitalist modes of production.
+
+### Profiles:
+
+=> https://github.com/mayakarabula > Github
+
+=> professional.gmi ~ Professional
+
+### Projects
+
+=> jswm-javascript-window-manager.gmi ~ ‍ JSWM - javascript window manager
+
+=> donica-semiautomated-farming.gmi ~ Donica - semiautomated farming
+
+=> szklo-3d-engine.gmi ~ Szklo - 3D engine or reinventing the wheel
+
+=> https://github.com/mayakarabula/gemini-proxy > ♊️ Gemini to HTTP Proxy [github]
+
+### Logs, lists, now
+
+=> reading-list.gmi ~ My reading list (psychology, sociology, feminism, diaries, prose)
+
+=> listening-list.gmi ~ My listening list (music, podcasts)
+
+**2022**
+
+=> malevich.gmi ~ ️ 06.10.2022 - Hey Malevich, how are you?
+
+=> jswm-uxn.gmi ~ 06.10.2022 - Jswm + Uxn
+
+=> poland-still-breaks-my-heart.gmi ~ ️‍️ 28.09.2022 - Poland still breaks my heart after leaving it behind
+
+=> posthuman-condition.gmi ~ 14.09.2022 - Thought on posthuman condition
+
+=> flora-fauna.gmi ~ 01.09.2022 - Flora & Fauna
+
+=> documents-were-not-supposed-to-be.gmi ~ 25.08.2022 - Documents were not supposed to be Turing complete
+
+### Other links
+
+=> https://benhoyt.com/writings/the-small-web-is-beautiful/ > The small web is beautiful [external]

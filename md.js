@@ -102,9 +102,9 @@ const run = async () => {
 
   console.log('Copied images...')
 
-  //   console.log('\nWill generate gemini...')
+  console.log('\nWill generate gemini...')
 
-  //   gemini()
+  gemini()
 
   console.log('Generated gemini...')
 
@@ -146,13 +146,23 @@ const getImage = (id, title) => {
 
 const gemini = () => {
   Object.keys(map).forEach((id) => {
-    const gem = execSync(`md2gemini md/${id}.md`).toString()
+    let gem = execSync(`md2gemini md/${id}.md`).toString()
+
+    gem = gem.replace(/>\s.*html.*/g, (str) => {
+      if (str.match('http')) {
+        return str
+      }
+
+      return str
+        .replace('html', 'gmi')
+        .replace(
+          /([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g,
+          '',
+        )
+        .replace(/\s+/g, ' ')
+    })
 
     fs.writeFileSync(`gemini/${id}.gmi`, gem)
-
-    if (id === indexPage) {
-      fs.writeFileSync(`gemini/index.gmi`, gem)
-    }
   })
 }
 

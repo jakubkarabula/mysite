@@ -4,7 +4,7 @@
 
 Some time ago I have seen a meme about JavaScript and the current state of the Web, that the documents were not supposed to be Turing Complete. Which is a call out of how unnecessarily complex current websites are - a ton of scripting just to display a page with an article, news, a product, etc.
 
-=> https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/js-documents-tc.png https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/js-documents-tc.png [IMG]
+=> images/js-documents-tc.png js documents tweet [IMG]
 
 ### Ok, but what is Turing Complete, and what is a Document? (if you know then skip this paragraph)
 
@@ -51,7 +51,7 @@ Yes and no. No because the dotcom bubble happened very soon (1995 - 200) after t
 => https://open.spotify.com/episode/2XhXLQm7fv4twUGy1y5Ji5?si=8acdb4c174a94b41 How the Modern World Shaped the Internet
 .
 
-I find it interesting that already in 1998  said:
+I find it interesting that already in 1998 said:
 
 > *“A lot of people ask me whether I am disappointed that the Web has taken on such a lot of commercial material, rather than being a pure academic space. In fact, I know it could not be universal if it did not allow any form of communication.”*
 
@@ -95,6 +95,6 @@ Other place that is partially inside the Web itself is Fediverse, it’s a set o
 
 => https://tilde.town/ Tilde Town
 
-### Web Apps  can be Turing Complete
+### Web Apps can be Turing Complete
 
 That’s a lot of talking, and in the end I think that documents should not be Turing Complete. However, I also think there is a difference between documents and what has evolved to be a proper Web App. Things that provide a real usability like 3d graphics visualisations or maps, there is certainly place for that and I would treat them rather as applications similar to desktop applications than websites. So both can be true, apps can have more complicated code bases but blogs, news sites, etc don’t really need that much.

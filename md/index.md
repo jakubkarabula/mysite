@@ -18,7 +18,7 @@ I am also very passionate about ecology. This is why I have built this website t
 
 [~ 🌱 Donica - semiautomated farming](donica-semiautomated-farming.html)
 
-[~ 🪟 Szklo - 3D engine or reinventing the wheel](szklo-3d-engine.html)
+[~ Szklo - 3D engine or reinventing the wheel](szklo-3d-engine.html)
 
 [> ♊️ Gemini to HTTP Proxy [github]](https://github.com/mayakarabula/gemini-proxy)
 
