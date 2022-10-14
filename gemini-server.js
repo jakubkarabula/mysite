@@ -4,8 +4,8 @@ const gemini = require('gemini-server').default
 const readFileSync = require('fs').readFileSync
 
 const options = {
-  cert: readFileSync(path.resolve('cert.pem')),
-  key: readFileSync(path.resolve('key.pem')),
+  cert: readFileSync(path.resolve('/etc/letsencrypt/live/mayaks.eu/fullchain.pem')),
+  key: readFileSync(path.resolve('/etc/letsencrypt/live/mayaks.eu/privkey.pem')),
 }
 
 const app = gemini(options)
