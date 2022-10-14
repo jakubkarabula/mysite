@@ -1,3 +1,5 @@
+=> images/donica-semiautomated-farming.png 🌱 Donica - semiautomated farming [IMG]
+
 # 🌱 Donica - semiautomated farming
 
 ## Hardware

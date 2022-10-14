@@ -1,3 +1,5 @@
+=> images/jswm-javascript-window-manager.png 👩‍💻 JSWM - javascript window manager [IMG]
+
 # 👩‍💻 JSWM - javascript window manager
 
 ### Story behind it

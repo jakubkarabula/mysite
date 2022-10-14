@@ -1,3 +1,5 @@
+=> images/szklo-3d-engine.png 🪟 Szklo - 3D engine or reinventing the wheel [IMG]
+
 # 🪟 Szklo - 3D engine or reinventing the wheel
 
 Some time ago this year I started writing my 3D engine in JavaScript. Basically, a reinventing a wheel to learn how it works.

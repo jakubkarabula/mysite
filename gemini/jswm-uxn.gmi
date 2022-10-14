@@ -1,3 +1,5 @@
+=> images/jswm-uxn.png 🐰 06.10.2022 - Jswm + Uxn [IMG]
+
 # 🐰 06.10.2022 - Jswm + Uxn
 
 > The Uxn ecosystem is a clean-slate personal computing stack, created to host small tools and games, programmable in its own unique assembly language, made of 32 instructions.

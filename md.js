@@ -145,7 +145,7 @@ const getImage = (id, title) => {
 }
 
 const gemini = () => {
-  Object.keys(map).forEach((id) => {
+  Object.entries(map).forEach(([id, page]) => {
     let gem = execSync(`md2gemini md/${id}.md`).toString()
 
     gem = gem.replace(/>\s.*html.*/g, (str) => {
@@ -161,6 +161,10 @@ const gemini = () => {
         )
         .replace(/\s+/g, ' ')
     })
+
+    if (fs.existsSync('images/' + id + '.png')) {
+      gem = `=> images/${id}.png ${page.title} [IMG]\n\n` + gem
+    }
 
     fs.writeFileSync(`gemini/${id}.gmi`, gem)
   })
