@@ -30,7 +30,7 @@ I am also very passionate about ecology. This is why I have built this website t
 
 **2022**
 
-[~ ◼️ 06.10.2022 - Hey Malevich, how are you?](malevich.html)
+[~ ◼️ 14.10.2022 - Hey Malevich, how are you?](malevich.html)
 
 [~ 🐰 06.10.2022 - Jswm + Uxn](jswm-uxn.html)
 
