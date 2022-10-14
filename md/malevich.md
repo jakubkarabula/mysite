@@ -1,4 +1,4 @@
-# ◼️ 06.10.2022 - Hey Malevich, how are you?
+# ◼️ 14.10.2022 - Hey Malevich, how are you?
 
 I love avant-garde art from the early 20th century. Especially from Eastern Europe and Germany - constructivism, bauhaus, and etc.
 In particular, I very much like art by Kazimierz Malewicz (Казими́р Севери́нович Мале́вич) and El Lissitzky.
