@@ -10,7 +10,7 @@ I was thinking recently about suprematism (an art movement started by Malewicz) 
 
 (First I will start by saying that I am not educated in fine arts, I haven't studied art by Malewicz and others, so these are just my random thoughts.)
 
-Fair enough, the first part of this paragraph describes it rather clearly, but what about the second part? What does it mean to go away from the visual depiction of an object in visual art like painting or photography? I don't think that this is possible unless we say that "abstract" objects like squares are not objects, but they are indeed based on real objects, they are approximations of a square window or a cube of sugar.
+Fair enough, the first part of this paragraph describes it rather clearly, but what about the second part? What does it mean to go away from the visual depiction of an object in visual art like painting or photography? His art is also described as not representational (so abstract) and non-objective (as in there are no objects). I don't think that this is possible unless we say that "abstract" objects like squares are not objects, but they are indeed based on real objects, they are approximations of a square window or a cube of sugar.
 
 Then I thought well, Malewicz was not writing in English, he was from a Polish-Belarussian family, born in Kyiv, Ukraine, lived later in Russia, and collaborated with people from Germany and France. He wrote in Polish, Russian, German, and perhaps in other languages (I am not sure).
 So what were his direct words in this regard? Let's start with the name of Malevich's pamphlet
