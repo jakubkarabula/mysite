@@ -4,7 +4,9 @@
 
 I am working as a software developer and I am also doing some coding experiments in my free time. I like to make my own tools, mainly software.
 
-I am also very passionate about ecology. This is why I have built this website to use primarily HTML and css. It's a part of small web movement emerging now in the Internet that brings attention to the impact the technology and current websites have on the environment, society and data ownership, there is also nostalgia for the early web. I also support degrowth and moving away from capitalist modes of production.
+This is somewhat of an unprofessional part, vibe-driven-development part, for more professional click on the link below in Profiles.
+
+I am also very passionate about ecology. This is why I have built this website to use primarily HTML and css. It's a part of the small web movement emerging now on the Internet that brings attention to the impact the technology and current websites have on the environment, society, and data ownership, there is also nostalgia for the early web. I also support degrowth and moving away from capitalist modes of production.
 
 ### Profiles:
 
@@ -46,4 +48,10 @@ I am also very passionate about ecology. This is why I have built this website t
 
 ### Other links
 
-[> The small web is beautiful [external]](https://benhoyt.com/writings/the-small-web-is-beautiful/)
+[> The small web is beautiful](https://benhoyt.com/writings/the-small-web-is-beautiful/)
+
+[> Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
+
+### Vibes this week (addiction 1995)
+
+![vibes and prayers](images/vibes.png)
