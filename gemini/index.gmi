@@ -22,11 +22,13 @@ I am also very passionate about ecology. This is why I have built this website t
 
 => https://github.com/mayakarabula/gemini-proxy > ♊️ Gemini to HTTP Proxy [github]
 
-### Logs, lists, now
+### Lists
 
 => reading-list.gmi ~ My reading list (psychology, sociology, feminism, diaries, prose)
 
 => listening-list.gmi ~ My listening list (music, podcasts)
+
+### Tiny-log
 
 **2022**
 

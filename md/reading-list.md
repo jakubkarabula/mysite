@@ -2,33 +2,35 @@
 
 ### Currently reading (2022):
 
-[Walden, Henry David Thoreau](https://www.goodreads.com/book/show/16902.Walden) 
+[Walden, Henry David Thoreau](https://www.goodreads.com/book/show/16902.Walden)
 
-[Backlash: The Undeclared War Against American Women, Susan Faludi](https://www.goodreads.com/book/show/200883.Backlash) 
+[Backlash: The Undeclared War Against American Women, Susan Faludi](https://www.goodreads.com/book/show/200883.Backlash)
 
 [Dark Ecology, Timothy Morton](https://cup.columbia.edu/book/dark-ecology/9780231177528)
 
 ### Plan to read (random order):
 
-[Écrits, Lacan](https://www.goodreads.com/en/book/show/75485) 
+[Écrits, Lacan](https://www.goodreads.com/en/book/show/75485)
 
-[Anti-Oedipus, Deleuze and Guattari](https://www.goodreads.com/book/show/118317.Anti_Oedipus) 
+[Anti-Oedipus, Deleuze and Guattari](https://www.goodreads.com/book/show/118317.Anti_Oedipus)
 
 [Trans Liberation: Beyond Pink or Blue, Leslie Feinberg](https://www.goodreads.com/en/book/show/217305)
 
 [Wampir, Maria Janion](https://www.goodreads.com/book/show/7739820-wampir)
 
+[The Question Concerning Technology, Heidegger](https://www.goodreads.com/en/book/show/207864.The_Question_Concerning_Technology_and_Other_Essays)
+
 ### Read and recommend (random order):
 
 [Burn our bodies down, Rory Power](https://www.goodreads.com/book/show/52748041-burn-our-bodies-down)
 
-[Busy doing nothing, Rek & Devine](https://100r.co/site/busy_doing_nothing.html) 
+[Busy doing nothing, Rek & Devine](https://100r.co/site/busy_doing_nothing.html)
 
-[Humankind: Solidarity with Non-Human People, Timothy Morton](https://www.versobooks.com/books/2809-humankind) 
+[Humankind: Solidarity with Non-Human People, Timothy Morton](https://www.versobooks.com/books/2809-humankind)
 
-[The Sane Society, Erich Fromm](https://www.goodreads.com/book/show/40717990-the-sane-society) 
+[The Sane Society, Erich Fromm](https://www.goodreads.com/book/show/40717990-the-sane-society)
 
-[The Pathology of Normalcy, Erich Fromm](https://www.goodreads.com/book/show/9593513-the-pathology-of-normalcy) 
+[The Pathology of Normalcy, Erich Fromm](https://www.goodreads.com/book/show/9593513-the-pathology-of-normalcy)
 
 [Sklepy Cynamonowe, Bruno Schulz (Polish)](https://www.goodreads.com/book/show/2451485.Sklepy_cynamonowe)
 
