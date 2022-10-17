@@ -49,6 +49,16 @@ I have another idea. It's a bit cursed but it's quite pleasant to work with so f
 
 [> https://github.com/mayakarabula/jswm](https://github.com/mayakarabula/jswm)
 
-### Screenshots
+### Presentation
 
-![https://raw.githubusercontent.com/mayakarabula/jswm/master/shot.png](https://raw.githubusercontent.com/mayakarabula/jswm/master/shot.png)
+Opening an image from the terminal
+
+![jswmc el lissitzky image](https://raw.githubusercontent.com/mayakarabula/jswm/master/jswm_el.gif)
+
+Runing uxn piano application
+
+![running uxn piano](https://raw.githubusercontent.com/mayakarabula/jswm/master/uxn_piano.gif)
+
+Screenshot
+
+![screenshot](https://raw.githubusercontent.com/mayakarabula/jswm/master/shot.png)
