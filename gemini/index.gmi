@@ -34,6 +34,8 @@ I am also very passionate about ecology. This is why I have built this website t
 
 **2022**
 
+=> szklo-obj.gmi ~ 21.10.22 - Szklo update - added obj support
+
 => malevich.gmi ~ ️ 14.10.2022 - Hey Malevich, how are you?
 
 => jswm-uxn.gmi ~ 06.10.2022 - Jswm + Uxn
