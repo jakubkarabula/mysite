@@ -1,7 +1,23 @@
 # 🪟 Szklo - 3D engine or reinventing the wheel
 
-Some time ago this year I started writing my 3D engine in JavaScript. Basically, a reinventing a wheel to learn how it works.
+Some time ago this year I started writing my 3D engine in JavaScript. Reinventing a wheel to learn how it works.
 
-Here is the first model I have produced
+[x] show edges, vertices
+
+[x] support OBJ files
+
+[ ] support faces with normals
+
+[ ] support controls to zoom in/out
+
+[ ] support controls to move around
+
+Below is a presentation of the progress:
+
+Suzanne
+
+![Suzanne gif](images/monkey.gif)
+
+Cube
 
 ![cube spin](images/cube.gif)
