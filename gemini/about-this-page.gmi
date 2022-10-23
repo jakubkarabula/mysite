@@ -10,6 +10,8 @@ Following my take that most websites should be simple documents. I write this we
 
 This decision puts very specific restraints on what I can add and what not. But this is great for me, I can just sit down and write a post and publish it, I don't think too much about SEO, layout, videos, or ads. I use almost only text and images.
 
+=> https://github.com/mayakarabula/mysite/blob/main/md.js > My script to convert md to html, gmi and adding backlinks
+
 ### Nostalgia
 
 I started making websites in the early 2000s. What I liked about the old Web were the communities that sprung up in different spaces, some were bound with real-world locality eg for Polish fans of some bands, and some were more international. I have met my first girlfriend this way, and a few friends as well. Back then I created a fan website with Microsoft Frontpage about a German rapper Sido and a Russian rapper Seryoga. It didn't make a lot of sense but who was there to stop me. I miss that mess.
