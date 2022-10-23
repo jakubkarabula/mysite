@@ -1,4 +1,6 @@
-# 21.10.22 - Szklo update - added obj support
+# 🐵 21.10.22 - Szklo update - added obj support
+
+[~ Szklo - 3D engine or reinventing the wheel](szklo-3d-engine.html)
 
 So I wanted to do a bit of work around the 3D engine again. I plan to add support for drawing faces.
 

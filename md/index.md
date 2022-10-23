@@ -2,17 +2,17 @@
 
 # Hello, I am Maya Karabula-Stysiak.
 
-I am working as a software developer and I am also doing some coding experiments in my free time. I like to make my own tools, mainly software.
+On this page, you can find multiple posts about my projects, my tiny-log entries, and lists of things I think are worth checking out.
 
-This is somewhat of an unprofessional part, vibe-driven-development part, for more professional click on the link below in Profiles.
-
-I am also very passionate about ecology. This is why I have built this website to use primarily HTML and css. It's a part of the small web movement emerging now on the Internet that brings attention to the impact the technology and current websites have on the environment, society, and data ownership, there is also nostalgia for the early web. I also support degrowth and moving away from capitalist modes of production.
-
-### Profiles:
-
-[> Github](https://github.com/mayakarabula)
+If you are looking for more professional information click the link "~ Professional" below, there you can find information about my work experience. I generally don't write about it outside of that page.
 
 [~ Professional](professional.html)
+
+[~ About me](about-me.html)
+
+[~ About this page](about-this-page.html)
+
+[> Github](https://github.com/mayakarabula)
 
 ### Projects
 
@@ -34,7 +34,9 @@ I am also very passionate about ecology. This is why I have built this website t
 
 **2022**
 
-[~ 21.10.22 - Szklo update - added obj support](szklo-obj.html)
+[~ ⚖️ 23.10.22 - Take on ethics](take-on-ethics.html)
+
+[~ 🐵 21.10.22 - Szklo update - added obj support](szklo-obj.html)
 
 [~ ◼️ 14.10.2022 - Hey Malevich, how are you?](malevich.html)
 
