@@ -1,0 +1,60 @@
+
+    <head>
+        <title>👀 an initial look at running x11 in the browser</title>
+        <meta property="og:title" content="👀 an initial look at running x11 in the browser" />
+        <meta property="og:description" content="So what are the options to run x11 in the browser? The closest thing I have found (that is currently working) is to connect remotely to a running X11 server...." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@MayaKarabula" />
+        <meta name="twitter:creator" content="@MayaKarabula" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/mmm.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+    </head>
+    <body>
+        
+        <div class='backlinks'>
+        
+            <span>backlinks:</span>
+            <ul>
+                <li><a href='index.html'>~ 🍁 homepage</a></li>
+            </ul>
+        
+        </div>
+        <h1 id="👀-an-initial-look-at-running-x11-in-the-browser">👀 an initial look at running x11 in the browser</h1>
+<p>So what are the options to run x11 in the browser? The closest thing I have found (that is currently working) is to connect remotely to a running X11 server.
+It can be a server, a docker container, or other similar things. Then we can run Xpra or VNC to connect to it with a browser. So technically we are not running X11 in the browser but just having a window to X11 server. Does it work? Yes. Is it what I am looking for? Not really.</p>
+<p><a href="https://www.youtube.com/watch?v=a5bDdN082No">&gt; youtube video on accessing x11 server remotely</a></p>
+<p><a href="https://xpra.org/">&gt; xpra</a></p>
+<p>Xpra running in jswm</p>
+<p><img src="images/xpra.png" alt="xpra"></p>
+<p>The limitations of such solutions are that I am running just whole another virtual system with its own disk volume and a desktop on top of it. So to integrate it with jswm I would have to write interfaces.</p>
+<p>The next step for me would be to look into CheerpX.</p>
+<p><a href="https://twitter.com/alexpignotti/status/1340736327508226048">&gt; tweet about cheerpx</a></p>
+<blockquote>
+<p>Xorg + xeyes running on CheerpX, our X86 virtual machine for WebAssembly. Another milestone toward running <em>anything</em> in the browser.
+Xorg itself is running virtualized in CheerpX. The browser provides Input/Output devices for Xorg in this case.</p>
+</blockquote>
+<p>It sounds interesting, although I am worried that this approach would cause a massive memory spike if I run a couple of apps alongside each other that each spin up X11 server.</p>
+
+        <hr/>
+
+        <footer>
+          <a href="https://webring.xxiivv.com/#198" target="_blank" rel="noopener">
+            <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
+            xxiivv
+          </a>
+          <a href="https://dzygaspaw.com/support/">
+          🇺🇦 Support Ukraine - Dzyga's Paw Charity Fund
+          </a>
+          <a href="gemini://mayaks.eu">
+          ♊︎ Gemini version
+          </a>
+        </footer>
+
+      <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
+      <noscript><link rel="stylesheet" href="style.css"></noscript>
+    </body>

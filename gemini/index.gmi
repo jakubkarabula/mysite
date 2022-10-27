@@ -1,4 +1,4 @@
-# Home
+# 🍁 homepage
 
 # Hello, I am Maya Karabula-Stysiak.
 
@@ -33,6 +33,8 @@ If you are looking for more professional information click the link "~ Professio
 ### Tiny-log
 
 **2022**
+
+=> jswm-xpra.gmi ~ 25.10.22 - an initial look at running x11 in the browser
 
 => take-on-ethics.gmi ~ ️ 23.10.22 - Take on ethics
 
