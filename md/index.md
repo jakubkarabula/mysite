@@ -58,6 +58,6 @@ If you are looking for more professional information click the link "~ Professio
 
 [> Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
 
-### Vibes this week (addiction 1995)
+### Vibes this week (happy October revolution <3)
 
-![vibes and prayers](images/vibes.png)
+![vibes and revolution](images/revolution.png)
