@@ -14,6 +14,8 @@ If you are looking for more professional information click the link "~ Professio
 
 [> Github](https://github.com/mayakarabula)
 
+[> Fediverse](https://kolektiva.social/@mayaks)
+
 ### Projects
 
 [~ 👩‍💻 JSWM - javascript window manager](jswm-javascript-window-manager.html)
@@ -58,6 +60,6 @@ If you are looking for more professional information click the link "~ Professio
 
 [> Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
 
-### Vibes this week (happy October revolution <3)
+### Vibes this week (dead but pretty | from IC3PEAK)
 
-![vibes and revolution](images/revolution.png)
+![vibes dead but pretty](images/dead.png)
