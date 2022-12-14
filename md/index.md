@@ -1,4 +1,4 @@
-# 🍁 homepage
+# ❄️ homepage
 
 # Hello, I am Maya Karabula-Stysiak.
 
@@ -17,6 +17,8 @@ If you are looking for more professional information click the link "~ Professio
 [> Fediverse](https://kolektiva.social/@mayaks)
 
 ### Projects
+
+Projects here can be treated as demos, learning experiences, and exploration of themes rather than intended for production.
 
 [~ 👩‍💻 JSWM - javascript window manager](jswm-javascript-window-manager.html)
 
