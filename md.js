@@ -221,8 +221,8 @@ const template = (page, backLinks, id, title, description) => `
           </a>
         </footer>
 
-      <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
-      <noscript><link rel="stylesheet" href="style.css"></noscript>
+      <link rel="stylesheet" href="winter.css" media="print" onload="this.media='all'" />
+      <noscript><link rel="stylesheet" href="winter.css"></noscript>
     </body>
 `
 
