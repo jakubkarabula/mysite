@@ -14,7 +14,47 @@
 
 [Anti-Oedipus, Deleuze and Guattari](https://www.goodreads.com/book/show/118317.Anti_Oedipus)
 
+[A Thousand Plateaus, Deleuze and Guattari](https://www.goodreads.com/book/show/118316.A_Thousand_Plateaus)
+
+[Difference and Repetition, Deleuze](https://www.goodreads.com/book/show/765337.Difference_and_Repetition)
+
+[The Society of the Spectacle, Guy Debord](https://www.goodreads.com/book/show/381440.The_Society_of_the_Spectacle)
+
+[Collapse Vol. III: Unknown Deleuze, Robin Mackay](https://www.goodreads.com/book/show/17380841-collapse-vol-iii)
+
+[Collapse Volume II: Speculative Realism](https://www.goodreads.com/book/show/8604779-collapse-volume-ii)
+
+[The Second Sex, Simone de Beauvoir](https://www.goodreads.com/book/show/457264.The_Second_Sex)
+
+[Gender Trouble: Feminism and the Subversion of Identity, Judith Butler](https://www.goodreads.com/book/show/85767.Gender_Trouble)
+
+[A Room of One's Own, Virginia Woolf](https://www.goodreads.com/book/show/18521.A_Room_of_One_s_Own)
+
+[Writing and Difference, Jacques Derrida](https://www.goodreads.com/book/show/765346.Writing_and_Difference)
+
+[Xenofeminism: A Politics for Alienation, Laboria Cuboniks](https://www.goodreads.com/en/book/show/34118206-xenofeminism)
+
+[The Luddite Rebellion, Brian Bailey](https://www.goodreads.com/book/show/2763323-the-luddite-rebellion)
+
+[Discipline and Punish: The Birth of the Prison, Michel Foucault](https://www.goodreads.com/book/show/80369.Discipline_and_Punish)
+
+[Simulacra and Simulation, Jean Baudrillard](https://www.goodreads.com/book/show/22613.Simulacra_and_Simulation)
+
+[The Weird and the Eerie, Mark Fisher](https://www.goodreads.com/book/show/29845449-the-weird-and-the-eerie)
+
+[The Spectacle of the Void, David Peak](https://www.goodreads.com/en/book/show/23656630-the-spectacle-of-the-void)
+
+[The Wretched of the Earth, Frantz Fanon](https://www.goodreads.com/book/show/66933.The_Wretched_of_the_Earth)
+
+[CCRU: Writings 1997-2003](https://www.goodreads.com/book/show/25492903-ccru)
+
 [Trans Liberation: Beyond Pink or Blue, Leslie Feinberg](https://www.goodreads.com/en/book/show/217305)
+
+[Mythologies, Roland Barthes](https://www.goodreads.com/book/show/51715.Mythologies)
+
+[Infinite Resignation: On Pessimism, Eugene Thacker](https://www.goodreads.com/en/book/show/37572904-infinite-resignation)
+
+[The Twenty Days of Turin, Giorgio De Maria](https://www.goodreads.com/book/show/30285138-the-twenty-days-of-turin)
 
 [Wampir, Maria Janion](https://www.goodreads.com/book/show/7739820-wampir)
 
