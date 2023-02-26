@@ -1,4 +1,4 @@
-# ❄️ homepage
+# 🌷 homepage
 
 # Hello, I am Maya Karabula-Stysiak.
 
@@ -62,6 +62,6 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 
 [> Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
 
-### Vibes this week (dead but pretty | from IC3PEAK)
+### Vibes this week (Joanna The Mad Accompanying The Coffin Of Philip The Handsome)
 
-![vibes dead but pretty](images/dead.png)
+![trying to survive](images/joanna-the-mad.png)

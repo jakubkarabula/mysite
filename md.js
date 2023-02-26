@@ -1,174 +1,174 @@
-const { marked } = require('marked')
-const fs = require('fs')
-var copyfiles = require('copyfiles')
-const { execSync } = require('node:child_process')
+const { marked } = require("marked");
+const fs = require("fs");
+var copyfiles = require("copyfiles");
+const { execSync } = require("node:child_process");
 
-const pages = fs.readdirSync('md/').map((file) => file.replace('.md', ''))
+const pages = fs.readdirSync("md/").map((file) => file.replace(".md", ""));
 
-const indexPage = 'index'
+const indexPage = "index";
 
-const map = {}
+const map = {};
 
 const get = async (id) => {
-  const md = fs.readFileSync('md/' + id + '.md').toString()
+  const md = fs.readFileSync("md/" + id + ".md").toString();
 
-  const { links } = getLinks(md)
+  const { links } = getLinks(md);
 
-  const html = marked.parse(md)
-  const title = getTitle(md)
-  const description = getDescription(html)
+  const html = marked.parse(md);
+  const title = getTitle(md);
+  const description = getDescription(html);
 
-  console.log('\t' + id)
+  console.log("\t" + id);
 
   if (!map[id]) {
     map[id] = {
       links: [],
-    }
+    };
   }
 
-  map[id].html = html
-  map[id].title = title
-  map[id].description = description
+  map[id].html = html;
+  map[id].title = title;
+  map[id].description = description;
 
   links.forEach(([, linkId]) => {
     if (!map[linkId]) {
       map[linkId] = {
         links: [],
-        title: '',
-        html: '',
-      }
+        title: "",
+        html: "",
+      };
     }
 
-    map[linkId].links.push({ id, title })
-  })
-}
+    map[linkId].links.push({ id, title });
+  });
+};
 
 const run = async () => {
-  console.log('Starting the page generation\n')
+  console.log("Starting the page generation\n");
 
-  console.log('Will read pages...')
-  await Promise.all(pages.map((page) => get(page)))
-  console.log('Downloaded all pages\n')
+  console.log("Will read pages...");
+  await Promise.all(pages.map((page) => get(page)));
+  console.log("Downloaded all pages\n");
 
-  console.log('Will read pages...')
+  console.log("Will read pages...");
 
   Object.entries(map).forEach(([id, content]) => {
-    if (content.html === '') {
-      console.log(id, content.title, 'this page had no content')
+    if (content.html === "") {
+      console.log(id, content.title, "this page had no content");
     }
 
     fs.writeFile(
-      './docs/' + id + '.html',
+      "./docs/" + id + ".html",
       template(
         content.html,
         content.links,
         id,
         content.title,
-        content.description,
+        content.description
       ),
       (err) => {
         if (err) {
-          console.error(err)
+          console.error(err);
         }
-      },
-    )
+      }
+    );
 
     if (id === indexPage) {
       fs.writeFile(
-        './docs/index.html',
+        "./docs/index.html",
         template(
           content.html,
           content.links,
           id,
           content.title,
-          content.description,
+          content.description
         ),
         (err) => {
           if (err) {
-            console.error(err)
+            console.error(err);
           }
-        },
-      )
+        }
+      );
     }
 
-    console.log('\t' + id)
-  })
-  console.log('Saved all pages\n')
+    console.log("\t" + id);
+  });
+  console.log("Saved all pages\n");
 
-  console.log('Will copy images...')
+  console.log("Will copy images...");
 
-  copyfiles(['images/*', 'docs/'], {}, () => {})
-  copyfiles(['images/*', 'gemini/'], {}, () => {})
+  copyfiles(["images/*", "docs/"], {}, () => {});
+  copyfiles(["images/*", "gemini/"], {}, () => {});
 
-  console.log('Copied images...')
+  console.log("Copied images...");
 
-  console.log('\nWill generate gemini...')
+  console.log("\nWill generate gemini...");
 
-  gemini()
+  gemini();
 
-  console.log('Generated gemini...')
+  console.log("Generated gemini...");
 
-  console.log('\nEnding. Kthbai')
-}
+  console.log("\nEnding. Kthbai");
+};
 
-const getTitle = (md = '') => {
-  const header = md.match(/\#\s.*/)?.[0]
-  return header?.slice(2)
-}
+const getTitle = (md = "") => {
+  const header = md.match(/\#\s.*/)?.[0];
+  return header?.slice(2);
+};
 
-const getDescription = (html = '') => {
+const getDescription = (html = "") => {
   const firstParagraph =
-    html.match(/<p>.*/)?.[0]?.replace(/<\/?[^>]+(>|$)/g, '') || ''
+    html.match(/<p>.*/)?.[0]?.replace(/<\/?[^>]+(>|$)/g, "") || "";
 
-  return firstParagraph.split(' ').slice(0, 30).join(' ') + '...'
-}
+  return firstParagraph.split(" ").slice(0, 30).join(" ") + "...";
+};
 
-const getLinks = (md = '') => {
-  const links = []
+const getLinks = (md = "") => {
+  const links = [];
 
   md.match(/\[.*\]\([a-z0-9-]+.html\)/g)?.forEach((link) => {
-    const name = link.match(/\[.*\]/)?.[0]?.slice(1, -1)
-    const id = link.match(/[a-z0-9-]+.html/)?.[0]?.replace('.html', '')
+    const name = link.match(/\[.*\]/)?.[0]?.slice(1, -1);
+    const id = link.match(/[a-z0-9-]+.html/)?.[0]?.replace(".html", "");
 
-    links.push([name, id])
-  })
+    links.push([name, id]);
+  });
 
-  return { links }
-}
+  return { links };
+};
 
 const getImage = (id, title) => {
-  if (!fs.existsSync('images/' + id + '.png')) {
-    return ''
+  if (!fs.existsSync("images/" + id + ".png")) {
+    return "";
   }
 
-  return `<img class='cover-image' src='images/${id}.png' alt='${title} cover' /> `
-}
+  return `<img class='cover-image' src='images/${id}.png' alt='${title} cover' /> `;
+};
 
 const gemini = () => {
   Object.entries(map).forEach(([id, page]) => {
-    let gem = execSync(`md2gemini md/${id}.md`).toString()
+    let gem = execSync(`md2gemini md/${id}.md`).toString();
 
     gem = gem.replace(/>\s.*html.*/g, (str) => {
-      if (str.match('http')) {
-        return str
+      if (str.match("http")) {
+        return str;
       }
 
       return str
-        .replace('html', 'gmi')
+        .replace("html", "gmi")
         .replace(
           /([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g,
-          '',
+          ""
         )
-        .replace(/\s+/g, ' ')
-    })
+        .replace(/\s+/g, " ");
+    });
 
-    if (fs.existsSync('images/' + id + '.png')) {
-      gem = `=> images/${id}.png ${page.title} [IMG]\n\n` + gem
+    if (fs.existsSync("images/" + id + ".png")) {
+      gem = `=> images/${id}.png ${page.title} [IMG]\n\n` + gem;
     }
 
-    fs.writeFileSync(`gemini/${id}.gmi`, gem)
-  })
-}
+    fs.writeFileSync(`gemini/${id}.gmi`, gem);
+  });
+};
 
 const template = (page, backLinks, id, title, description) => `
     <head>
@@ -190,19 +190,19 @@ const template = (page, backLinks, id, title, description) => `
         ${getImage(id, title)}
         <div class='backlinks'>
         ${
-          backLinks?.length > 0 && id !== 'professional'
+          backLinks?.length > 0 && id !== "professional"
             ? `
             <span>backlinks:</span>
             <ul>
                 ${backLinks
                   .map(
                     ({ title: linkTitle, id: linkId }) =>
-                      `<li><a href='${linkId}.html'>~ ${linkTitle}</a></li>`,
+                      `<li><a href='${linkId}.html'>~ ${linkTitle}</a></li>`
                   )
-                  .join('')}
+                  .join("")}
             </ul>
         `
-            : ''
+            : ""
         }
         </div>
         ${page}
@@ -221,9 +221,9 @@ const template = (page, backLinks, id, title, description) => `
           </a>
         </footer>
 
-      <link rel="stylesheet" href="winter.css" media="print" onload="this.media='all'" />
-      <noscript><link rel="stylesheet" href="winter.css"></noscript>
+      <link rel="stylesheet" href="spring.css" media="print" onload="this.media='all'" />
+      <noscript><link rel="stylesheet" href="spring.css"></noscript>
     </body>
-`
+`;
 
-run()
+run();

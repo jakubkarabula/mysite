@@ -1,0 +1,55 @@
+
+    <head>
+        <title>🥞 sprite stacking renderer adventure</title>
+        <meta property="og:title" content="🥞 sprite stacking renderer adventure" />
+        <meta property="og:description" content="&gt; Code on github..." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@MayaKarabula" />
+        <meta name="twitter:creator" content="@MayaKarabula" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/mayakarabula/mysite/notion-prebuild/images/mmm.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+    </head>
+    <body>
+        <img class='cover-image' src='images/sprite-stacking.png' alt='🥞 sprite stacking renderer adventure cover' /> 
+        <div class='backlinks'>
+        
+        </div>
+        <h1 id="🥞-sprite-stacking-renderer-adventure">🥞 sprite stacking renderer adventure</h1>
+<p><a href="https://github.com/mayakarabula/lasagna-renderer">&gt; Code on github</a></p>
+<p>In a quest of trying to find a perfect medium to create a game (also called starting a new project every few weeks), I stumbled upon sprite stacking. It&#39;s a technique of putting multiple images on each other that create an illusion of a 3d object, think of a sandwich, when you put the bread and cucumbers and tomatoes together you get one tasty 3d object.</p>
+<p>To help visualize it or to make it more confusing I made this small illustration. On the left we have layers, first legs then the seat then the bars and at last the chair&#39;s back.</p>
+<p>IMAGE HERE</p>
+<p>Now, if we just stack them together vertically with small gaps between layers we already get an illusion of a 3d object. But it&#39;s much better if it&#39;s not a static image. We should be able to rotate it to see it from different angles. Now the magic trick is that if you rotate each layer at the same angle, and stack them on each other you get the 3d rotation along the Y-axis as presented in the image below:</p>
+<p>IMAGE HERE</p>
+<p>What about the rotation of the X-axis? That&#39;s also possible but you won&#39;t get 360 degrees as with Y-axis as easily. If you make the distance between layers 0 you get the view from the top, and then when you increase the distance you get the rotation, but pretty quickly this falls apart as the distance between layers will be visible as empty spaces.</p>
+<p>IMAGE HERE</p>
+<p>Now, how to get the multiple objects to be displayed in the correct depth? Meaning that sometimes a person is visible in front of a tree and sometimes they are behind the tree. This can be handled by drawing per layer and not per object so that you get a unified scene and the depth will fall in place.</p>
+<p>IMAGE HERE</p>
+<p>A bonus question, if you rotate a sprite by 45 degrees in a square canvas what do you get? A broken image, as the corners would be cut off. To handle that I have added an extra space around the canvas to allow for rotation. How much extra space? In the case of a square we need to rotate this square at every angle, thus we get a circle, and around this circle, we put a square. The length of a side of this square would be a squarate root of 2 times the length of the canvas.</p>
+<p>IMAGE HERE</p>
+<p>And here we have the final result:</p>
+<p><img src="images/forrest.gif" alt="a small demo of sprite stacking"></p>
+
+        <hr/>
+
+        <footer>
+          <a href="https://webring.xxiivv.com/#198" target="_blank" rel="noopener">
+            <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/>
+            xxiivv
+          </a>
+          <a href="https://dzygaspaw.com/support/">
+          🇺🇦 Support Ukraine - Dzyga's Paw Charity Fund
+          </a>
+          <a href="gemini://mayaks.eu">
+          ♊︎ Gemini version
+          </a>
+        </footer>
+
+      <link rel="stylesheet" href="spring.css" media="print" onload="this.media='all'" />
+      <noscript><link rel="stylesheet" href="spring.css"></noscript>
+    </body>
