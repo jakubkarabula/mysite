@@ -14,7 +14,7 @@ If you are looking for more professional information click the link "~ Professio
 
 [> Github](https://github.com/mayakarabula)
 
-[> Fediverse](https://kolektiva.social/@mayaks)
+[> Fediverse](https://merveilles.town/@mayaks)
 
 ### Projects
 
