@@ -23,10 +23,11 @@ Turing Complete means more or less that a system can solve any computational pro
 Long story short yes-ish. If you read WorldWideWeb: Proposal for a HyperText Project by Tim Berners-Lee, which I recommend, you can find this:
 
 > *The project will operate in a certain well-defined subset of the subject area often associated with the "Hypertext" tag. It will aim:*
+> 
 > * *to provide a common (simple) protocol for requesting human readable information stored at a remote system, using networks; (…)*
 > 
-> 
 > ***The project will not aim (…)***
+> 
 > * *to do research into fancy multimedia facilities such as sound and video;*
 > * *to use sophisticated network authorisation systems. data will be either readable by the world (literally), or will be readable only on one file system, in which case the file system's protection system will be used for privacy. All network traffic will be public.*
 

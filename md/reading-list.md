@@ -8,11 +8,13 @@
 
 [Dark Ecology, Timothy Morton](https://cup.columbia.edu/book/dark-ecology/9780231177528)
 
+[The Twenty Days of Turin, Giorgio De Maria](https://www.goodreads.com/book/show/30285138-the-twenty-days-of-turin)
+
+[Anti-Oedipus, Deleuze and Guattari](https://www.goodreads.com/book/show/118317.Anti_Oedipus)
+
 ### Plan to read (random order):
 
 [Écrits, Lacan](https://www.goodreads.com/en/book/show/75485)
-
-[Anti-Oedipus, Deleuze and Guattari](https://www.goodreads.com/book/show/118317.Anti_Oedipus)
 
 [A Thousand Plateaus, Deleuze and Guattari](https://www.goodreads.com/book/show/118316.A_Thousand_Plateaus)
 
@@ -40,8 +42,6 @@
 
 [Simulacra and Simulation, Jean Baudrillard](https://www.goodreads.com/book/show/22613.Simulacra_and_Simulation)
 
-[The Weird and the Eerie, Mark Fisher](https://www.goodreads.com/book/show/29845449-the-weird-and-the-eerie)
-
 [The Spectacle of the Void, David Peak](https://www.goodreads.com/en/book/show/23656630-the-spectacle-of-the-void)
 
 [The Wretched of the Earth, Frantz Fanon](https://www.goodreads.com/book/show/66933.The_Wretched_of_the_Earth)
@@ -54,13 +54,15 @@
 
 [Infinite Resignation: On Pessimism, Eugene Thacker](https://www.goodreads.com/en/book/show/37572904-infinite-resignation)
 
-[The Twenty Days of Turin, Giorgio De Maria](https://www.goodreads.com/book/show/30285138-the-twenty-days-of-turin)
-
 [Wampir, Maria Janion](https://www.goodreads.com/book/show/7739820-wampir)
 
-[The Question Concerning Technology, Heidegger](https://www.goodreads.com/en/book/show/207864.The_Question_Concerning_Technology_and_Other_Essays)
-
 ### Read and recommend (random order):
+
+[Tell me I am worthless](https://www.goodreads.com/en/book/show/57307172)
+
+[The Weird and the Eerie, Mark Fisher](https://www.goodreads.com/book/show/29845449-the-weird-and-the-eerie)
+
+[The Question Concerning Technology, Heidegger](https://www.goodreads.com/en/book/show/207864.The_Question_Concerning_Technology_and_Other_Essays)
 
 [Burn our bodies down, Rory Power](https://www.goodreads.com/book/show/52748041-burn-our-bodies-down)
 

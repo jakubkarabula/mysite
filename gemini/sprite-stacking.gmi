@@ -1,5 +1,3 @@
-=> images/sprite-stacking.png 🥞 sprite stacking renderer adventure [IMG]
-
 # 🥞 sprite stacking renderer adventure
 
 => https://github.com/mayakarabula/lasagna-renderer > Code on github

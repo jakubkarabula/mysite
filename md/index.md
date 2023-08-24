@@ -1,4 +1,4 @@
-# 🌷 homepage
+# 🌻 homepage
 
 # Hello, I am Maya Karabula-Stysiak.
 
@@ -62,6 +62,6 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 
 [> Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
 
-### Vibes this week (Joanna The Mad Accompanying The Coffin Of Philip The Handsome)
+### Vibes this week (Kathleen from the film The Addiction)
 
-![trying to survive](images/joanna-the-mad.png)
+![trying to survive](images/kathleen.png)
