@@ -33,7 +33,7 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 * [The small web is beautiful](https://benhoyt.com/writings/the-small-web-is-beautiful/)
 * [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
 
-### Vibes this week (Kathleen from the film The Addiction)
-{{ img(id="https://mayaks.eu/images/kathleen.png", alt="logo du thème") }}
+### Vibes this week (Two gals in space)
+![vibes](/images/vibes.png)
 
 
