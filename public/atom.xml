@@ -4,8 +4,24 @@
     <link href="https://mayaks.eu/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://mayaks.eu"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-12-13T00:00:00+00:00</updated>
+    <updated>2023-12-30T00:00:00+00:00</updated>
     <id>https://mayaks.eu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>the first secret</title>
+        <published>2023-12-30T00:00:00+00:00</published>
+        <updated>2023-12-30T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://mayaks.eu/secrets/first/" type="text/html"/>
+        <id>https://mayaks.eu/secrets/first/</id>
+        
+        <content type="html">&lt;p&gt;This is a secret page, meaning that is unlisted.&lt;&#x2F;p&gt;
+&lt;p&gt;I copied this idea from &lt;a href=&quot;https:&#x2F;&#x2F;dwangschematiek.nl&#x2F;&quot;&gt;Marieke&lt;&#x2F;a&gt;, to share some thoughts for an even smaller audience than the main page.&lt;&#x2F;p&gt;
+&lt;p&gt;End of transmission for now :)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>About</title>
         <published>2023-12-13T00:00:00+00:00</published>
