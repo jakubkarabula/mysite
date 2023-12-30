@@ -1,0 +1,67 @@
+# 🌻 homepage
+
+# Hello, I am Maya Karabula-Stysiak.
+
+On this page, you can find multiple posts about my projects, my tiny-log entries, and lists of things I think are worth checking out.
+
+If you are looking for more professional information click the link "~ Professional" below, there you can find information about my work experience. I generally don't write about it outside of that page.
+
+=> professional.gmi ~ Professional
+
+=> about-me.gmi ~ About me
+
+=> about-this-page.gmi ~ About this page
+
+=> https://github.com/mayakarabula > Github
+
+=> https://merveilles.town/@mayaks > Fediverse
+
+### Projects
+
+Projects here can be treated as demos, learning experiences, and exploration of themes rather than intended for production.
+
+=> jswm-javascript-window-manager.gmi ~ ‍ JSWM - javascript window manager
+
+=> donica-semiautomated-farming.gmi ~ Donica - semiautomated farming
+
+=> szklo-3d-engine.gmi ~ Szklo - 3D engine or reinventing the wheel
+
+=> https://github.com/mayakarabula/gemini-proxy > ♊️ Gemini to HTTP Proxy [github]
+
+### Lists
+
+=> reading-list.gmi ~ My reading list (psychology, sociology, feminism, diaries, prose)
+
+=> listening-list.gmi ~ My listening list (music, podcasts)
+
+### Tiny-log
+
+**2022**
+
+=> jswm-xpra.gmi ~ 25.10.22 - an initial look at running x11 in the browser
+
+=> take-on-ethics.gmi ~ ️ 23.10.22 - Take on ethics
+
+=> szklo-obj.gmi ~ 21.10.22 - Szklo update - added obj support
+
+=> malevich.gmi ~ ️ 14.10.2022 - Hey Malevich, how are you?
+
+=> jswm-uxn.gmi ~ 06.10.2022 - Jswm + Uxn
+
+=> poland-still-breaks-my-heart.gmi ~ ️‍️ 28.09.2022 - Poland still breaks my heart after leaving it behind
+
+=> posthuman-condition.gmi ~ 14.09.2022 - Thought on posthuman condition
+
+=> flora-fauna.gmi ~ 01.09.2022 - Flora & Fauna
+
+=> documents-were-not-supposed-to-be.gmi ~ 25.08.2022 - Documents were not supposed to be Turing complete
+
+### Other links
+
+=> https://benhoyt.com/writings/the-small-web-is-beautiful/ > The small web is beautiful
+
+=> https://neustadt.fr/essays/the-small-web/ > Rediscovering the Small Web
+
+### Vibes this week (Kathleen from the film The Addiction)
+
+=> images/kathleen.png trying to survive [IMG]
