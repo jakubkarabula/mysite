@@ -1,0 +1,17 @@
++++
+title = "⚖️ 23.10.22 - Take on ethics"
+date = "2023-12-13"
+description = "⚖️ 23.10.22 - Take on ethics"
+author = { name = "Maya" }
+
+[extra]
+image = "/images/ethics.png"
++++
+
+Some simple definitions from wiki
+
+>In moral philosophy, deontological ethics or deontology (...) is the normative ethical theory that the morality of an action should be based on whether that action itself is right or wrong under a series of rules, rather than based on the consequences of the action
+
+>In ethical philosophy, consequentialism is a class of normative, teleological ethical theories that holds that the consequences of one's conduct are the ultimate basis for judgment about the rightness or wrongness of that conduct
+
+I am personally leaning towards deontology in terms of ethics. But it's a question that I struggle with for years, is there a coherent ethical basis for my decisions? I am vegan, before vegetarian because I think it's wrong to harm other beings, human or not. I am generally in support of socialism because I believe everyone deserves a good life. How to derive this set of beliefs without having an external framework like religion? Well, for me it's going back to consequentialism and borrowing parts of it to form general views. My point is when I decide to buy soya instead of meat I am not directly involved in the killing of an animal, but I pay someone who has already done it, so I support the butcher, indirectly to continue what they are doing. However, I also know that my personal choice does not have these consequences, one person generally does not determine the course of industrial production; and crucially I just don't know what the consequences of my actions will be. I don't know the future and to speculate on the impact of daily choices I think is void of substance. That's why when I make a decision I don't think as much of different consequences, like "do I support the butcher? will me not spending 2 euros here change anything?", "if everyone eats less meat it will be a huge step for animals and the environment", I don't want to base my ethics on something that speculative. This is where I just say that I don't want to participate in harm, whatever the reason or consequence, will it change anything or not.
