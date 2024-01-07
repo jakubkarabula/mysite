@@ -28,6 +28,14 @@ image = "/images/reading-list.png"
 
 ### Plan to read (random order):
 
+[Black Circuit: Code for the Numbers to Come, Amy Ireland](https://www.e-flux.com/journal/80/100016/black-circuit-code-for-the-numbers-to-come/)
+
+[The Thirst for Annihilation: Georges Bataille and Virulent Nihilism, Nick Land](https://www.goodreads.com/en/book/show/345784)
+
+[On the Matrix: Cyberfeminist Simulations, Sadie Plant](https://www.are.na/block/7589493)
+
+[The Gendered Cyborg - A Reader, Fiona Hovenden, Linda Janes, Gill Kirkup, Kathryn Woodward](https://www.routledge.com/The-Gendered-Cyborg-A-Reader/Hovenden-Janes-Kirkup-Woodward/p/book/9780415220910#)
+
 [Écrits, Lacan](https://www.goodreads.com/en/book/show/75485)
 
 [A Thousand Plateaus, Deleuze and Guattari](https://www.goodreads.com/book/show/118316.A_Thousand_Plateaus)

@@ -4,8 +4,36 @@
     <link href="https://mayaks.eu/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://mayaks.eu"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-12-30T00:00:00+00:00</updated>
+    <updated>2024-01-07T00:00:00+00:00</updated>
     <id>https://mayaks.eu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>🧑‍🚀 07.01.2024 - weft - a software system for small spacecraft</title>
+        <published>2024-01-07T00:00:00+00:00</published>
+        <updated>2024-01-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://mayaks.eu/tiny-log/space-travel/" type="text/html"/>
+        <id>https://mayaks.eu/tiny-log/space-travel/</id>
+        
+        <content type="html">&lt;h3 id=&quot;weft&quot;&gt;weft&lt;&#x2F;h3&gt;
+&lt;p&gt;The last month while messy was quite fruitful in {friend, vibe}-driven development. I have started working on a software system with &lt;a href=&quot;https:&#x2F;&#x2F;dwangschematiek.nl&#x2F;&quot;&gt;Marieke&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Primarily just to try out her &lt;a href=&quot;https:&#x2F;&#x2F;git.sr.ht&#x2F;~ma3ke&#x2F;tid&#x2F;&quot;&gt;tid (system information bar)&lt;&#x2F;a&gt; and adopting it to run on Mac, then modifying her application to be &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mayakarabula&#x2F;gemininini&#x2F;&quot;&gt;gemininini (a gemini browser)&lt;&#x2F;a&gt; to actually working together on &lt;a href=&quot;https:&#x2F;&#x2F;git.sr.ht&#x2F;~ma3ke&#x2F;stammer&#x2F;&quot;&gt;stammer (an interface library)&lt;&#x2F;a&gt; that sprung from extracting parts of tid. &lt;&#x2F;p&gt;
+&lt;p&gt;This whole journey came under an umbrella of a system that we called &lt;a href=&quot;https:&#x2F;&#x2F;sr.ht&#x2F;~ma3ke&#x2F;weft&#x2F;&quot;&gt;weft&lt;&#x2F;a&gt;, from a weaving allegory.&lt;&#x2F;p&gt;
+&lt;p&gt;We are doing this for fun, but also to have a very custom, minimalist software for everyday use and a system to build this software upon. In this sense it is somewhat similar to &lt;a href=&quot;https:&#x2F;&#x2F;100r.co&#x2F;site&#x2F;uxn.html&quot;&gt;uxn&lt;&#x2F;a&gt;, another ecosystem tailored to specific needs but less close to things like &lt;a href=&quot;http:&#x2F;&#x2F;collapseos.org&#x2F;&quot;&gt;collapse OS&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Weft is also a story based ecosystem, one that imagines a life on a spaceship, with a small crew of queer people (cyborgs why not), deep within cyberspace at the same time. So it transcends the software we wrote, spills into the cyberspace, via images (like the in the header) and via one-day-projects like &lt;a href=&quot;https:&#x2F;&#x2F;mayakarabula.github.io&#x2F;aroomofonesowninspace&#x2F;&quot;&gt;a room of ones own in space&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;images&quot;&gt;images&lt;&#x2F;h3&gt;
+&lt;p&gt;weft logo:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;weft.png&quot; alt=&quot;weft&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;tid (from Marieke&#x27;s sourcehut page):&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;tid.png&quot; alt=&quot;tid&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;a room of ones own in space:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;aroomofonesowninspace.png&quot; alt=&quot;a room of ones own in space&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;gemininini (wip):&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;gemininini.png&quot; alt=&quot;geminini&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>the first secret</title>
         <published>2023-12-30T00:00:00+00:00</published>
@@ -159,6 +187,10 @@
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;200883.Backlash&quot;&gt;Backlash: The Undeclared War Against American Women, Susan Faludi&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cup.columbia.edu&#x2F;book&#x2F;dark-ecology&#x2F;9780231177528&quot;&gt;Dark Ecology, Timothy Morton&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;plan-to-read-random-order&quot;&gt;Plan to read (random order):&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.e-flux.com&#x2F;journal&#x2F;80&#x2F;100016&#x2F;black-circuit-code-for-the-numbers-to-come&#x2F;&quot;&gt;Black Circuit: Code for the Numbers to Come, Amy Ireland&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;en&#x2F;book&#x2F;show&#x2F;345784&quot;&gt;The Thirst for Annihilation: Georges Bataille and Virulent Nihilism, Nick Land&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.are.na&#x2F;block&#x2F;7589493&quot;&gt;On the Matrix: Cyberfeminist Simulations, Sadie Plant&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.routledge.com&#x2F;The-Gendered-Cyborg-A-Reader&#x2F;Hovenden-Janes-Kirkup-Woodward&#x2F;p&#x2F;book&#x2F;9780415220910#&quot;&gt;The Gendered Cyborg - A Reader, Fiona Hovenden, Linda Janes, Gill Kirkup, Kathryn Woodward&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;en&#x2F;book&#x2F;show&#x2F;75485&quot;&gt;Écrits, Lacan&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;118316.A_Thousand_Plateaus&quot;&gt;A Thousand Plateaus, Deleuze and Guattari&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;765337.Difference_and_Repetition&quot;&gt;Difference and Repetition, Deleuze&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;

@@ -39,12 +39,13 @@ blockquote {
 }
 
 .cover-image {
+  width: 100%;
   max-height: 250px;
   object-fit: cover;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 1em;
 }
 

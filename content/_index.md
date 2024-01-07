@@ -19,6 +19,7 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 * [🎹 My listening list (music, podcasts)](/lists/listening-list)
 
 ### Tiny-log
+* [🧑‍🚀 07.01.2024 - weft — a software system for small spacecraft](/tiny-log/space-travel)
 * [👀 25.10.22 - an initial look at running x11 in the browser](/tiny-log/jswm-xpra)
 * [⚖️ 23.10.22 - Take on ethics](/tiny-log/ethics)
 * [🐵 21.10.22 - Szklo update - added obj support](/tiny-log/szklo-update)
