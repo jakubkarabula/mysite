@@ -4,8 +4,31 @@
     <link href="https://mayaks.eu/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://mayaks.eu"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-07T00:00:00+00:00</updated>
+    <updated>2024-01-22T00:00:00+00:00</updated>
     <id>https://mayaks.eu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>✏️ drawings</title>
+        <published>2024-01-22T00:00:00+00:00</published>
+        <updated>2024-01-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://mayaks.eu/projects/drawings/" type="text/html"/>
+        <id>https://mayaks.eu/projects/drawings/</id>
+        
+        <content type="html">&lt;p&gt;Study, 22 Jan 2024&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;study.png&quot; alt=&quot;study&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Two gals working on software and reading books in space, 29 Dec 2023&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;space-travel.png&quot; alt=&quot;girls&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Death in bikini, 12 Jun 2023&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;skeleton.png&quot; alt=&quot;death in biki&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Nostalgia, 05 Jun 2023&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;nostalgia.png&quot; alt=&quot;nostalgia&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Merveilles, 30 May 2023 (as a part of &lt;a href=&quot;https:&#x2F;&#x2F;merveilles.town&#x2F;tags&#x2F;thelogo&quot;&gt;a project to recreate merveilles logo in a creative style&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;merveilles.png&quot; alt=&quot;merveilles logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>🧑‍🚀 07.01.2024 - weft - a software system for small spacecraft</title>
         <published>2024-01-07T00:00:00+00:00</published>

@@ -5,7 +5,7 @@ description = "🧑‍🚀 07.01.2024 - weft — a software system for small spa
 author = { name = "Maya" }
 
 [extra]
-image = "/images/vibes.png"
+image = "/images/space-travel.png"
 +++
 
 ### weft

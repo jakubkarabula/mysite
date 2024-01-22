@@ -13,6 +13,7 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 * [👩‍💻 JSWM - javascript window manager](/projects/jswm-javascript-wm)
 * [🪟 Szklo - 3D engine or reinventing the wheel](/projects/szklo)
 * [♊️ Gemini to HTTP Proxy - github](https://github.com/mayakarabula/gemini-proxy)
+* [✏️ drawings](/projects/drawings)
 
 ### Lists
 * [📖 My reading list (psychology, sociology, feminism, diaries, prose)](/lists/reading-list)
