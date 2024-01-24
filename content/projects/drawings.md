@@ -5,6 +5,10 @@ description = "Some of my drawings"
 author = { name = "Maya" }
 +++
 
+Berlin Night, 24 Jan 2024 (a sketchy drawing inspired by "A Roman Holiday" by Frank Skipworth c.1889)
+
+![berlin night](/images/berlin-night.png)
+
 Study, 22 Jan 2024
 
 ![study](/images/study.png)
