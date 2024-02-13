@@ -6,7 +6,7 @@ On this page, you can find multiple posts about my projects, my tiny-log entries
 
 If you are looking for more professional information click the link "Professional" below, there you can find information about my work experience. I generally don't write about it outside of that page.
 
-[Professional](/professional) * [About](/about) * [This page](/this-page) * [Github](https://github.com/mayakarabula) * [Fediverse](https://merveilles.town/@mayaks)
+[Professional](/professional) * [About](/about) * [This page](/this-page) * [Github](https://github.com/mayakarabula) * {{ masto() }}
 
 ### Projects
 Projects here can be treated as demos, learning experiences, and exploration of themes rather than intended for production.
