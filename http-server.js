@@ -17,6 +17,8 @@ const app = express()
 
 app.use(express.static('public'))
 
+app.use('/seis', express.static('seis'))
+
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
