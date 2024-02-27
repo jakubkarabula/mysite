@@ -5,14 +5,21 @@ const seisConfig = require('./seis.json')
 const router = express.Router();
 
 router.get("/", function (req, res) {
-    const dateWithouthSecond = new Date();
-    const time = dateWithouthSecond.toLocaleTimeString('de-DE', {
-        hour: '2-digit', 
-        minute:'2-digit',
-        timeZone: 'Europe/Amsterdam'
-    });
+    const { font, ...rest } = seisConfig
 
-    res.json({...seisConfig, time });
+    res.json(rest);
+});
+
+router.get("/font", function (req, res) {
+    const { font } = seisConfig
+
+    const setFont = req.query.set;
+    if (setFont) {
+        seisConfig.font = setFont;
+        writeFileSync('./seis.json', JSON.stringify(seisConfig));
+    }
+
+    res.json({ font });
 });
 
 router.get("/clock-sub", function (req, res) {
