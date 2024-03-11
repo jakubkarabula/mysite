@@ -259,7 +259,7 @@
 			})
 		}
 
-		fetch('/font')
+		fetch('/api/font')
 			.then(response => response.json())
 			.then(data => {
 				decodeFont(data.font);
@@ -268,7 +268,7 @@
 				console.error('Error:', error);
 			});
 
-		fetch('/text')
+		fetch('/api/text')
 			.then(response => response.json())
 			.then(data => {
 				const textEl = document.getElementById('text');
