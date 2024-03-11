@@ -8,6 +8,7 @@
 	<meta name="format-detection" content="date=no">
 	<link rel="stylesheet" type="text/css" href="lcars-ultra-classic.css">
 	<link rel="stylesheet" type="text/css" href="lcars-colors.css">
+	<link rel="stylesheet" type="text/css" href="seis.css">
 </head>
 
 <body>
@@ -40,13 +41,8 @@
 		<div class="wrap" id="gap">
 			<div class="left-frame">
 				<div>
-					<div class="panel-3">CLOCK<span class="hop"> enlarge font</span></div>
-					<div class="panel-5">CLOCK<span class="hop"> shrink font</span></div>
-					<div class="panel-4">CLOCK<span class="hop"> set font</span></div>
-					<div class="panel-7">CLOCK<span class="hop"> edit font</span></div>
-					<div class="panel-6">TEXT<span class="hop"> enlarge font</span></div>
-					<div class="panel-4">TEXT<span class="hop"> shrink font</span></div>
-					<div class="panel-7">TEXT<span class="hop"> change</span></div>
+					<div class="panel-3">CLOCK<span class="hop"> SET font</span></div>
+					<div class="panel-7">TEXT<span class="hop"> CHANGE</span></div>
 				</div>
 			</div>
 			<div class="right-frame">
@@ -61,17 +57,228 @@
 
 					<!-- Start your content here. -->
 		
-					<h2>Clock font size &#149; <span class="go-tomato">25</span> &#149;</h2>
-					<h2>Text font size &#149; <span class="go-tomato">10</span> &#149;</h2>
-					<h2>Text &#149; <span class="go-tomato">seis seis seis</span> &#149;</h2>
+					<h2>Clock Font &#149; <span class="go-tomato" id="clock-size">
+						<div id="glyphs"></div>
+					</span> &#149;</h2>
+					<h2>Text &#149; <span class="go-tomato" id="text"></span> &#149;</h2>
 					
 					<!-- End content area. -->
-
-
 				</main>
 			</div>
 		</div>
-	</section>	
+	</section>
+	<script>
+		var rows = 4;
+        var cols = 3;
+
+        let lines = [];
+        let id = 0;
+
+        const curveColor = "#567a76";
+        const lineColor = "#7a566e";
+        const dotColor = "#c966c1";
+
+		 class Glyph {
+            constructor(dotRadius, spacing, svgContainer, attachListener) {
+                this.dotRadius = dotRadius;
+                this.attachListener = attachListener;
+                this.svgContainer = svgContainer;
+                this.spacing = spacing;
+            }
+
+            renderGlyph = () => {
+                id = 0;
+
+                const { spacing, dotRadius } = this;
+
+                for (var j = 0; j < cols; j++) {
+                    for (var i = 0; i < rows; i++) {
+                        var cx = j * spacing + dotRadius * 2;
+                        var cy = i * spacing + dotRadius * 2;
+                        var nx = (j + 1) * spacing + dotRadius * 2;
+                        var ny = (i + 1) * spacing + dotRadius * 2;
+
+                        if (i < rows - 2) {
+                            this.svgContainer.appendChild(this.addPath(`M${cy},${cx} a${spacing},${spacing} 0 0,0 ${spacing},${spacing}`));
+                            this.svgContainer.appendChild(this.addPath(`M${ny},${cx} a${spacing},${spacing} 0 0,1 -${spacing},${spacing}`));
+                            this.svgContainer.appendChild(this.addPath(`M${cy},${cx} a${spacing},${spacing} 0 0,1 ${spacing},${spacing}`));
+                            this.svgContainer.appendChild(this.addPath(`M${cy},${nx} a${spacing},${spacing} 0 0,1 ${spacing},-${spacing}`));
+                        }
+                    }
+                }
+
+                for (var i = 0; i < rows - 1; i++) {
+                    for (var j = 0; j < cols - 1; j++) {
+                        var cx = j * spacing + dotRadius * 2;
+                        var cy = i * spacing + dotRadius * 2;
+                        var nx = (j + 1) * spacing + dotRadius * 2;
+                        var ny = (i + 1) * spacing + dotRadius * 2;
+                        const halfWidth = dotRadius / 2;
+
+                        if (i < rows - 2) {
+                            ny -= halfWidth;
+                        }
+                        if (j < cols - 2) {
+                            nx -= halfWidth;
+                        }
+                        if (j == 1) {
+                            cx += halfWidth;
+                        }
+                        if (i == 1 || i == 2) {
+                            cy += halfWidth;
+                        }
+
+                        this.svgContainer.appendChild(this.addLine(cx, cy, nx, cy));
+                        this.svgContainer.appendChild(this.addLine(nx, cy, nx, ny));
+                        this.svgContainer.appendChild(this.addLine(cx, ny, nx, ny));
+                        this.svgContainer.appendChild(this.addLine(cx, cy, cx, ny));
+                    }
+                }
+
+                for (var i = 0; i < rows; i++) {
+                    for (var j = 0; j < cols; j++) {
+                        var cx = j * spacing + dotRadius * 2;
+                        var cy = i * spacing + dotRadius * 2;
+                    
+                        const dot = this.addDot(cx, cy);
+                        dot.setAttribute("id", j + i * cols)
+
+                        this.svgContainer.appendChild(dot);
+                    }
+                }
+            }
+
+            addDot = (cx, cy) => {
+                const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                circle.setAttribute("cx", cx);
+                circle.setAttribute("cy", cy);
+                circle.setAttribute("r", this.dotRadius);
+                circle.setAttribute("fill", dotColor);
+
+                return circle;
+            }
+
+            addLine = (x1, y1, x2, y2) => {
+                const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+                line.setAttribute("x1", x1);
+                line.setAttribute("y1", y1);
+                line.setAttribute("x2", x2);
+                line.setAttribute("y2", y2);
+                line.setAttribute("stroke", lineColor);
+                line.setAttribute("stroke-width", this.dotRadius);
+                line.setAttribute("id", id++);
+
+                if (this.attachListener) { 
+                    this.attachListener(line);
+                }
+
+                lines.push(line);
+                
+                return line;
+            }
+
+            addPath = (d) => {
+                const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+                path.setAttribute("d", d);
+                path.setAttribute("fill", "none");
+                path.setAttribute("stroke", curveColor);
+                path.setAttribute("stroke-width", this.dotRadius);
+                path.setAttribute("id", id++);
+
+                if (this.attachListener) { 
+                    this.attachListener(path);
+                }
+
+                lines.push(path);
+
+                return path
+            }
+        }
+
+		const library = document.getElementById("glyphs");
+        const glyphW = (cols - 1) * 15 + 2 * cols;
+        const glyphH = (rows - 1) * 15 + 2 * rows;
+
+        const divRow = document.createElement("div");
+
+        for (let i = 0; i < 10; i++) {
+            const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            svg.setAttribute("width", glyphW);
+            svg.setAttribute("height", glyphH);
+            svg.setAttribute("onlylines", "true");
+            svg.setAttribute("id", "g" + (48 + i));
+            
+            const glyph = new Glyph(1, 15, svg);
+            glyph.renderGlyph();
+
+            divRow.appendChild(svg);
+        }
+
+        library.appendChild(divRow);
+
+		const clearGlyph = (selector) => {
+            const lines = [...document.querySelectorAll(selector + ' line')];
+            const curves = [...document.querySelectorAll(selector + ' path')];
+
+            lines.forEach(l => l.setAttribute("selected", "false"));
+            curves.forEach(c => c.setAttribute("selected", "false"));
+        }
+
+		const decodeSeis = (seis, selector) => {
+            const lines = [...document.querySelectorAll(selector + ' line')];
+            const curves = [...document.querySelectorAll(selector + ' path')];
+
+            clearGlyph(selector)
+
+            lines.forEach((l, index) => {
+                const seixel = Math.floor(index / 4);
+                const pos = index % 4 + 4;
+                if (seis[seixel][pos] === 1) {
+                    l.setAttribute("selected", "true");
+                }
+            })
+
+            curves.forEach((c, index) => {
+                const seixel = Math.floor(index / 4);
+                const pos = index % 4;
+                if (seis[seixel][pos] === 1) {
+                    c.setAttribute("selected", "true");
+                }
+            })
+        }
+
+		function decodeFont (fontParam) {
+			const font = fontParam.match(/.{1,12}/g)
+				.map(glyph => {
+					return glyph.match(/.{1,2}/g)
+						.map(e => Number.parseInt(e, 16).toString(2).padStart(8, '0').split('').map(flag => +flag))
+				})
+
+			font.forEach((seis, index) => {
+				decodeSeis(seis, '#g' + index);
+			})
+		}
+
+		fetch('/font')
+			.then(response => response.json())
+			.then(data => {
+				decodeFont(data.font);
+			})
+			.catch(error => {
+				console.error('Error:', error);
+			});
+
+		fetch('/text')
+			.then(response => response.json())
+			.then(data => {
+				const textEl = document.getElementById('text');
+				textEl.textContent = data.text;
+			})
+			.catch(error => {
+				console.error('Error:', error);
+			});
+       
+	</script>
 </body>
 
 </html>

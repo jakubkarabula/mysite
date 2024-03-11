@@ -700,8 +700,13 @@ a:active {
 	color: #000;
 }
 
+#gap {
+	height: 100%;
+}
+
 .left-frame	{
 	display: flex;
+	height: 100%;
 	flex-direction: column;
 	justify-content: space-between;
 	padding-top: 90px;

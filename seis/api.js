@@ -14,7 +14,7 @@ router.get("/font", function (req, res) {
     const { font } = seisConfig
 
     const setFont = req.query.set;
-    if (setFont) {
+    if (setFont && setFont.length === 1536) {
         seisConfig.font = setFont;
         writeFileSync('./seis.json', JSON.stringify(seisConfig));
     }
@@ -22,45 +22,15 @@ router.get("/font", function (req, res) {
     res.json({ font });
 });
 
-router.get("/clock-sub", function (req, res) {
-    if (seisConfig.clock_font_size > 1) {
-        seisConfig.clock_font_size -= 1;
-        writeFileSync('./seis.json', JSON.stringify(seisConfig));
-    }
-    res.status(200).send();
-})
-
-router.get("/clock-add", function (req, res) {
-    if (seisConfig.clock_font_size < 40) {
-        seisConfig.clock_font_size += 1;
-        writeFileSync('./seis.json', JSON.stringify(seisConfig));
-    }
-    res.status(200).send();
-})
-
-router.get("/text-sub", function (req, res) {
-    if (seisConfig.text_font_size > 1) {
-        seisConfig.text_font_size -= 1;
-        writeFileSync('./seis.json', JSON.stringify(seisConfig));
-    }
-    res.status(200).send();
-})
-
-router.get("/text-add", function (req, res) {
-    if (seisConfig.text_font_size < 40) {
-        seisConfig.text_font_size += 1;
-        writeFileSync('./seis.json', JSON.stringify(seisConfig));
-    }
-    res.status(200).send();
-})
-
 router.get("/text", function (req, res) {
-    const text = req.query.set;
-    if (text) {
-        seisConfig.text = text;
+    const { text } = seisConfig
+
+    const setText = req.query.set;
+    if (setText && setText.length > 0 && setText.length < 150) {
+        seisConfig.text = setText;
         writeFileSync('./seis.json', JSON.stringify(seisConfig));
     }
-    res.status(200).send();
+    res.json({ text });
 })
 
 exports.router = router;
