@@ -41,8 +41,8 @@
 		<div class="wrap" id="gap">
 			<div class="left-frame">
 				<div>
-					<div class="panel-3">CLOCK<span class="hop"> SET font</span></div>
-					<div class="panel-7">TEXT<span class="hop"> CHANGE</span></div>
+					<div class="panel-3" onclick="setFont()">CLOCK<span class="hop"> SET font</span></div>
+					<div class="panel-7" onclick="setText()">TEXT<span class="hop"> CHANGE</span></div>
 				</div>
 			</div>
 			<div class="right-frame">
@@ -277,7 +277,27 @@
 			.catch(error => {
 				console.error('Error:', error);
 			});
+
+		function setFont() {
+			const font = window.prompt("Enter font code");
+
+			if (font.length === 1536) {
+				decodeFont(font);
+
+				fetch("/api/font?set=" + font)
+			}
+		}
        
+		function setText() {
+			const text = window.prompt("Enter some qute text~");
+
+			if (text.length > 0 && text.length < 150) {
+				const textEl = document.getElementById('text');
+				textEl.textContent = text;
+				fetch("/api/text?set=" + encodeURI(text))
+			}
+		}
+
 	</script>
 </body>
 

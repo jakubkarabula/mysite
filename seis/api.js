@@ -17,6 +17,8 @@ router.get("/font", function (req, res) {
     if (setFont && setFont.length === 1536) {
         seisConfig.font = setFont;
         writeFileSync('./seis.json', JSON.stringify(seisConfig));
+
+        res.json({ font: setFont });
     }
 
     res.json({ font });
@@ -29,6 +31,8 @@ router.get("/text", function (req, res) {
     if (setText && setText.length > 0 && setText.length < 150) {
         seisConfig.text = setText;
         writeFileSync('./seis.json', JSON.stringify(seisConfig));
+
+        res.json({ text: setText });
     }
     res.json({ text });
 })
