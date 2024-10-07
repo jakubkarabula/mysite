@@ -3,8 +3,21 @@ var http = require('http');
 var https = require('https');
 const readFileSync = require('fs').readFileSync
 const router = require('./seis/api').router
+const morgan = require('morgan')
+const fs = require('fs')
+var path = require('path')
+var rfs = require('rotating-file-stream') // version 2.x
 
 const app = express()
+
+// create a rotating write stream
+var accessLogStream = rfs.createStream('access.log', {
+    interval: '1d', // rotate daily
+    path: path.join(__dirname, 'log')
+  })
+  
+// setup the logger
+app.use(morgan('combined', { stream: accessLogStream }))
 
 app.use('/seis', express.static('seis'))
 
