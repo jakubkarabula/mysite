@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "zola-bin build",
+    "dev": "zola-bin serve --open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "gemini-server": "^2.1.1",
-    "morgan": "^1.10.0",
-    "rotating-file-stream": "^3.2.5"
+    "zola-bin": "^0.3.7"
   }
 }
