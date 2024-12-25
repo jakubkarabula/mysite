@@ -16,8 +16,9 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 * [✏️ drawings](/projects/drawings)
 
 ### Lists
-* [📖 My reading list (psychology, sociology, feminism, diaries, prose)](/lists/reading-list)
+* [📖 Goodreads (books)](https://www.goodreads.com/user/show/181020297-maya-ks)
 * [🎹 My listening list (music, podcasts)](/lists/listening-list)
+* [🎬 Letterboxd (films)](https://letterboxd.com/mayakss/)
 
 ### Tiny-log
 * [🧑‍🚀 07.01.2024 - weft — a software system for small spacecraft](/tiny-log/space-travel)
