@@ -2,7 +2,7 @@
 base_url = "https://mayaks.eu"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 generate_feed = true
 
 # Whether to build a search index to be used later on by a JavaScript library
