@@ -17,7 +17,7 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 
 ### Lists
 * [📖 Goodreads (books)](https://www.goodreads.com/user/show/181020297-maya-ks)
-* [🎹 My listening list (music, podcasts)](/lists/listening-list)
+* [🎹 Bandcamp (music)](https://bandcamp.com/mayaks)
 * [🎬 Letterboxd (films)](https://letterboxd.com/mayakss/)
 
 ### Tiny-log
